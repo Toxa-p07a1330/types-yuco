@@ -20,17 +20,17 @@ export interface Currency {
      * @type {number}
      * @memberof Currency
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof Currency
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {string}
      * @memberof Currency
      */
-    'abbr': string;
+    abbr: string;
 }

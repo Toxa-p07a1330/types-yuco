@@ -20,11 +20,11 @@ export interface Audience {
      * @type {number}
      * @memberof Audience
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof Audience
      */
-    'name': string;
+    name: string;
 }
