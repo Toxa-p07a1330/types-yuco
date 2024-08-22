@@ -19,4 +19,4 @@ export declare const Platform: {
     readonly Android: "android";
     readonly Ios: "ios";
 };
-export type Platform = typeof Platform[keyof typeof Platform];
+export type Platform = (typeof Platform)[keyof typeof Platform];

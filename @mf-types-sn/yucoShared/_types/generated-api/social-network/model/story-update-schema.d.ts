@@ -22,17 +22,17 @@ export interface StoryUpdateSchema {
      * @type {OpenHiddenLists}
      * @memberof StoryUpdateSchema
      */
-    'hide_lists'?: OpenHiddenLists;
+    hide_lists?: OpenHiddenLists;
     /**
      * Кто может отвечать на историю
      * @type {ReplyPermissionChoices}
      * @memberof StoryUpdateSchema
      */
-    'reply_permission'?: ReplyPermissionChoices;
+    reply_permission?: ReplyPermissionChoices;
     /**
      * Настройки
      * @type {object}
      * @memberof StoryUpdateSchema
      */
-    'configuration'?: object;
+    configuration?: object;
 }

@@ -18,4 +18,4 @@ export declare const LegalStatusChoices: {
     readonly Legal: "legal";
     readonly Physical: "physical";
 };
-export type LegalStatusChoices = typeof LegalStatusChoices[keyof typeof LegalStatusChoices];
+export type LegalStatusChoices = (typeof LegalStatusChoices)[keyof typeof LegalStatusChoices];

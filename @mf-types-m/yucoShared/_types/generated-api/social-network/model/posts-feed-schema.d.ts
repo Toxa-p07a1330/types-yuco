@@ -21,13 +21,13 @@ export interface PostsFeedSchema {
      * @type {Array<PostFeedDetailSchema>}
      * @memberof PostsFeedSchema
      */
-    'data': Array<PostFeedDetailSchema>;
+    data: Array<PostFeedDetailSchema>;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof PostsFeedSchema
      */
-    'mentioned_users'?: {
+    mentioned_users?: {
         [key: string]: number;
     };
 }

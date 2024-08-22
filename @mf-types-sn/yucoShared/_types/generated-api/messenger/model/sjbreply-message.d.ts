@@ -21,23 +21,23 @@ export interface SJBReplyMessage {
      * @type {string}
      * @memberof SJBReplyMessage
      */
-    'message': string;
+    message: string;
     /**
      *
      * @type {string}
      * @memberof SJBReplyMessage
      */
-    'message_uuid': string;
+    message_uuid: string;
     /**
      *
      * @type {string}
      * @memberof SJBReplyMessage
      */
-    'cache_id': string;
+    cache_id: string;
     /**
      *
      * @type {Array<ContentCreateSchema>}
      * @memberof SJBReplyMessage
      */
-    'attachments'?: Array<ContentCreateSchema>;
+    attachments?: Array<ContentCreateSchema>;
 }

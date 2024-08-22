@@ -20,5 +20,5 @@ export interface ReadURL {
      * @type {string}
      * @memberof ReadURL
      */
-    'hash': string;
+    hash: string;
 }

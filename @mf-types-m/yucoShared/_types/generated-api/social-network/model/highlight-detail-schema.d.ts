@@ -21,23 +21,23 @@ export interface HighlightDetailSchema {
      * @type {number}
      * @memberof HighlightDetailSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof HighlightDetailSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {string}
      * @memberof HighlightDetailSchema
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {ContentModelDetailSchema}
      * @memberof HighlightDetailSchema
      */
-    'content'?: ContentModelDetailSchema;
+    content?: ContentModelDetailSchema;
 }

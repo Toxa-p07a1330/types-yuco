@@ -20,5 +20,5 @@ export interface ResponseReadUrl {
      * @type {string}
      * @memberof ResponseReadUrl
      */
-    'url': string;
+    url: string;
 }

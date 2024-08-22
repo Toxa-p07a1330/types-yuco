@@ -21,5 +21,5 @@ export interface MSDirectoryList {
      * @type {Array<MSDir>}
      * @memberof MSDirectoryList
      */
-    'directories': Array<MSDir>;
+    directories: Array<MSDir>;
 }

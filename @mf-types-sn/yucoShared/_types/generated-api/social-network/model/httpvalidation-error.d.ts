@@ -21,5 +21,5 @@ export interface HTTPValidationError {
      * @type {Array<ValidationError>}
      * @memberof HTTPValidationError
      */
-    'detail'?: Array<ValidationError>;
+    detail?: Array<ValidationError>;
 }

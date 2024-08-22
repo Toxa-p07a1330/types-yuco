@@ -20,11 +20,11 @@ export interface JwtTokenSchema {
      * @type {string}
      * @memberof JwtTokenSchema
      */
-    'access': string;
+    access: string;
     /**
      *
      * @type {string}
      * @memberof JwtTokenSchema
      */
-    'refresh': string;
+    refresh: string;
 }

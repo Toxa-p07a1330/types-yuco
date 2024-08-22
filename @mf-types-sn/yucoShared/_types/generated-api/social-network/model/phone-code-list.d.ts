@@ -21,5 +21,5 @@ export interface PhoneCodeList {
      * @type {Array<PhoneCodes>}
      * @memberof PhoneCodeList
      */
-    'data': Array<PhoneCodes>;
+    data: Array<PhoneCodes>;
 }

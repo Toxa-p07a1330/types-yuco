@@ -20,5 +20,5 @@ export interface AudienceCreateSchema {
      * @type {string}
      * @memberof AudienceCreateSchema
      */
-    'name': string;
+    name: string;
 }

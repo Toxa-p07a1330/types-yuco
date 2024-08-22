@@ -21,5 +21,5 @@ export interface LocationsListSchema {
      * @type {Array<LocationSchema>}
      * @memberof LocationsListSchema
      */
-    'data': Array<LocationSchema>;
+    data: Array<LocationSchema>;
 }

@@ -20,4 +20,4 @@ export declare const ObjectType: {
     readonly Reels: "reels";
     readonly Profile: "profile";
 };
-export type ObjectType = typeof ObjectType[keyof typeof ObjectType];
+export type ObjectType = (typeof ObjectType)[keyof typeof ObjectType];

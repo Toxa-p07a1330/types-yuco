@@ -20,29 +20,29 @@ export interface Story {
      * @type {number}
      * @memberof Story
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof Story
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof Story
      */
-    'created_at': string;
+    created_at: string;
     /**
      * Кому разрешено репостить сторис
      * @type {string}
      * @memberof Story
      */
-    'reply_permission'?: string;
+    reply_permission?: string;
     /**
      *
      * @type {any}
      * @memberof Story
      */
-    'configuration'?: any;
+    configuration?: any;
 }

@@ -21,5 +21,5 @@ export interface CountryList {
      * @type {Array<SearchCountryModelSchema>}
      * @memberof CountryList
      */
-    'data': Array<SearchCountryModelSchema>;
+    data: Array<SearchCountryModelSchema>;
 }

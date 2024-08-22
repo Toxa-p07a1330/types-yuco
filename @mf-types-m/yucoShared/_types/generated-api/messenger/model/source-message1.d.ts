@@ -22,89 +22,89 @@ export interface SourceMessage1 {
      * @type {MSUser}
      * @memberof SourceMessage1
      */
-    'sender'?: MSUser;
+    sender?: MSUser;
     /**
      *
      * @type {Array<MSAttachment>}
      * @memberof SourceMessage1
      */
-    'attachments'?: Array<MSAttachment>;
+    attachments?: Array<MSAttachment>;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {boolean}
      * @memberof SourceMessage1
      */
-    'edited': boolean;
+    edited: boolean;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'cache_id': string;
+    cache_id: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'message'?: string;
+    message?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'account_uuid': string;
+    account_uuid: string;
     /**
      *
      * @type {number}
      * @memberof SourceMessage1
      */
-    'object_uuid'?: number;
+    object_uuid?: number;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'object_type'?: string;
+    object_type?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'deleted_at'?: string;
+    deleted_at?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'chat_uuid': string;
+    chat_uuid: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'fw_source_message'?: string;
+    fw_source_message?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage1
      */
-    'fw_source_account_uuid'?: string;
+    fw_source_account_uuid?: string;
 }

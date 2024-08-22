@@ -21,41 +21,41 @@ export interface UserSearchSchema {
      * @type {number}
      * @memberof UserSearchSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof UserSearchSchema
      */
-    'account_id': string;
+    account_id: string;
     /**
      *
      * @type {string}
      * @memberof UserSearchSchema
      */
-    'name'?: string;
+    name?: string;
     /**
      *
      * @type {string}
      * @memberof UserSearchSchema
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {number}
      * @memberof UserSearchSchema
      */
-    'followers_count': number;
+    followers_count: number;
     /**
      *
      * @type {number}
      * @memberof UserSearchSchema
      */
-    'score': number;
+    score: number;
     /**
      *
      * @type {ContentSchemaWithoutThumbnail}
      * @memberof UserSearchSchema
      */
-    'profile_photo'?: ContentSchemaWithoutThumbnail;
+    profile_photo?: ContentSchemaWithoutThumbnail;
 }

@@ -20,5 +20,5 @@ export interface MSInvitation {
      * @type {string}
      * @memberof MSInvitation
      */
-    'invitation_link': string;
+    invitation_link: string;
 }

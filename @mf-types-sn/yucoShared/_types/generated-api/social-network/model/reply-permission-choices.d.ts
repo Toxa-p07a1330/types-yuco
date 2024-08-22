@@ -19,4 +19,4 @@ export declare const ReplyPermissionChoices: {
     readonly Followers: "followers";
     readonly ReciprocalFollow: "reciprocal_follow";
 };
-export type ReplyPermissionChoices = typeof ReplyPermissionChoices[keyof typeof ReplyPermissionChoices];
+export type ReplyPermissionChoices = (typeof ReplyPermissionChoices)[keyof typeof ReplyPermissionChoices];

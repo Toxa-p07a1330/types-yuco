@@ -21,35 +21,35 @@ export interface MSChatBase {
      * @type {string}
      * @memberof MSChatBase
      */
-    'title': string;
+    title: string;
     /**
      *
      * @type {string}
      * @memberof MSChatBase
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {string}
      * @memberof MSChatBase
      */
-    'icon_hashname'?: string;
+    icon_hashname?: string;
     /**
      *
      * @type {string}
      * @memberof MSChatBase
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof MSChatBase
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {Chat}
      * @memberof MSChatBase
      */
-    'type': Chat;
+    type: Chat;
 }

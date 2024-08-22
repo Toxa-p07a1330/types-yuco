@@ -20,5 +20,5 @@ export interface StoryViewSchema {
      * @type {Array<number>}
      * @memberof StoryViewSchema
      */
-    'story_ids'?: Array<number>;
+    story_ids?: Array<number>;
 }

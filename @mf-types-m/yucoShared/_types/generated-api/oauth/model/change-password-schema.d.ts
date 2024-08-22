@@ -20,11 +20,11 @@ export interface ChangePasswordSchema {
      * @type {string}
      * @memberof ChangePasswordSchema
      */
-    'current_password': string;
+    current_password: string;
     /**
      *
      * @type {string}
      * @memberof ChangePasswordSchema
      */
-    'new_password': string;
+    new_password: string;
 }

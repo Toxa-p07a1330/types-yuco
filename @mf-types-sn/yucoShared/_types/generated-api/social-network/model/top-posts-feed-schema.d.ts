@@ -21,13 +21,13 @@ export interface TopPostsFeedSchema {
      * @type {Array<TopPostDetailSchema>}
      * @memberof TopPostsFeedSchema
      */
-    'data': Array<TopPostDetailSchema>;
+    data: Array<TopPostDetailSchema>;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof TopPostsFeedSchema
      */
-    'mentioned_users'?: {
+    mentioned_users?: {
         [key: string]: number;
     };
 }

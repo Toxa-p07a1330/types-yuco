@@ -21,83 +21,83 @@ export interface SourceMessage {
      * @type {Array<MSAttachment>}
      * @memberof SourceMessage
      */
-    'attachments'?: Array<MSAttachment>;
+    attachments?: Array<MSAttachment>;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {boolean}
      * @memberof SourceMessage
      */
-    'edited': boolean;
+    edited: boolean;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'cache_id': string;
+    cache_id: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'message'?: string;
+    message?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'account_uuid': string;
+    account_uuid: string;
     /**
      *
      * @type {number}
      * @memberof SourceMessage
      */
-    'object_uuid'?: number;
+    object_uuid?: number;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'object_type'?: string;
+    object_type?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'deleted_at'?: string;
+    deleted_at?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'chat_uuid': string;
+    chat_uuid: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'fw_source_message'?: string;
+    fw_source_message?: string;
     /**
      *
      * @type {string}
      * @memberof SourceMessage
      */
-    'fw_source_account_uuid'?: string;
+    fw_source_account_uuid?: string;
 }

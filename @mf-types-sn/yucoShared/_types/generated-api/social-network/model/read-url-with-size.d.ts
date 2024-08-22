@@ -21,23 +21,23 @@ export interface ReadUrlWithSize {
      * @type {string}
      * @memberof ReadUrlWithSize
      */
-    'url': string;
+    url: string;
     /**
      *
      * @type {number}
      * @memberof ReadUrlWithSize
      */
-    'width'?: number;
+    width?: number;
     /**
      *
      * @type {number}
      * @memberof ReadUrlWithSize
      */
-    'height'?: number;
+    height?: number;
     /**
      *
      * @type {SizeType}
      * @memberof ReadUrlWithSize
      */
-    'size_type': SizeType;
+    size_type: SizeType;
 }

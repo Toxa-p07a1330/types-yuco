@@ -21,47 +21,47 @@ export interface AdvertisementProfileUpdateSchema {
      * @type {string}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'name'?: string;
+    name?: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'surname'?: string;
+    surname?: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'patronymic'?: string;
+    patronymic?: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'email'?: string;
+    email?: string;
     /**
      *
      * @type {number}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'timezone_id'?: number;
+    timezone_id?: number;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'company'?: string;
+    company?: string;
     /**
      *
      * @type {LegalStatusChoices}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'legal_status'?: LegalStatusChoices;
+    legal_status?: LegalStatusChoices;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileUpdateSchema
      */
-    'type'?: string;
+    type?: string;
 }

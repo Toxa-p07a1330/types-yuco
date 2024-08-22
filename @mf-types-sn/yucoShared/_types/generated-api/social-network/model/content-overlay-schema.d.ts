@@ -22,11 +22,11 @@ export interface ContentOverlaySchema {
      * @type {Array<ContentOverlayCandidateSchema>}
      * @memberof ContentOverlaySchema
      */
-    'candidates'?: Array<ContentOverlayCandidateSchema>;
+    candidates?: Array<ContentOverlayCandidateSchema>;
     /**
      * Размер виртуального экрана
      * @type {ScreenResolution}
      * @memberof ContentOverlaySchema
      */
-    'screen'?: ScreenResolution;
+    screen?: ScreenResolution;
 }

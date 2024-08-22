@@ -22,11 +22,11 @@ export interface UserWithTokens {
      * @type {UserModelSchema}
      * @memberof UserWithTokens
      */
-    'user': UserModelSchema;
+    user: UserModelSchema;
     /**
      *
      * @type {JwtTokenSchema}
      * @memberof UserWithTokens
      */
-    'tokens': JwtTokenSchema;
+    tokens: JwtTokenSchema;
 }

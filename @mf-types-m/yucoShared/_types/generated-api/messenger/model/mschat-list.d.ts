@@ -21,13 +21,13 @@ export interface MSChatList {
      * @type {Array<MSFullChat>}
      * @memberof MSChatList
      */
-    'chats': Array<MSFullChat>;
+    chats: Array<MSFullChat>;
     /**
      *
      * @type {{ [key: string]: object; }}
      * @memberof MSChatList
      */
-    'accounts': {
+    accounts: {
         [key: string]: object;
     };
 }

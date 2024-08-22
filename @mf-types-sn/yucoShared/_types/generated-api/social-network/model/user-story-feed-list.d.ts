@@ -21,5 +21,5 @@ export interface UserStoryFeedList {
      * @type {Array<UserStoryFeed>}
      * @memberof UserStoryFeedList
      */
-    'data': Array<UserStoryFeed>;
+    data: Array<UserStoryFeed>;
 }

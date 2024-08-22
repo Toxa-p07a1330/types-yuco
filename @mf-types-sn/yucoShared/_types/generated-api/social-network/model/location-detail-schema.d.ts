@@ -21,35 +21,35 @@ export interface LocationDetailSchema {
      * @type {number}
      * @memberof LocationDetailSchema
      */
-    'id': number;
+    id: number;
     /**
      * Долгота
      * @type {number}
      * @memberof LocationDetailSchema
      */
-    'longitude': number;
+    longitude: number;
     /**
      * Широта
      * @type {number}
      * @memberof LocationDetailSchema
      */
-    'latitude': number;
+    latitude: number;
     /**
      * Адрес
      * @type {string}
      * @memberof LocationDetailSchema
      */
-    'address': string;
+    address: string;
     /**
      * Название локации
      * @type {string}
      * @memberof LocationDetailSchema
      */
-    'name'?: string | null;
+    name?: string | null;
     /**
      *
      * @type {ContentModelDetailSchema}
      * @memberof LocationDetailSchema
      */
-    'content'?: ContentModelDetailSchema;
+    content?: ContentModelDetailSchema;
 }

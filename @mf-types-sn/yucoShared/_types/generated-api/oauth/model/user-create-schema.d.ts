@@ -20,23 +20,23 @@ export interface UserCreateSchema {
      * @type {string}
      * @memberof UserCreateSchema
      */
-    'login': string;
+    login: string;
     /**
      *
      * @type {string}
      * @memberof UserCreateSchema
      */
-    'code'?: string;
+    code?: string;
     /**
      *
      * @type {string}
      * @memberof UserCreateSchema
      */
-    'password'?: string;
+    password?: string;
     /**
      *
      * @type {string}
      * @memberof UserCreateSchema
      */
-    'username'?: string;
+    username?: string;
 }

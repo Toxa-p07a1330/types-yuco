@@ -19,4 +19,4 @@ export declare const MuteTypeEnum: {
     readonly Temporarily: "temporarily";
     readonly Period: "period";
 };
-export type MuteTypeEnum = typeof MuteTypeEnum[keyof typeof MuteTypeEnum];
+export type MuteTypeEnum = (typeof MuteTypeEnum)[keyof typeof MuteTypeEnum];

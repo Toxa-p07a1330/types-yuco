@@ -21,5 +21,5 @@ export interface StoryViewListSchema {
      * @type {Array<StoryViewDetailSchema>}
      * @memberof StoryViewListSchema
      */
-    'data': Array<StoryViewDetailSchema>;
+    data: Array<StoryViewDetailSchema>;
 }

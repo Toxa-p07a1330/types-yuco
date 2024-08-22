@@ -21,35 +21,35 @@ export interface UserAvatarFollowFlag {
      * @type {number}
      * @memberof UserAvatarFollowFlag
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof UserAvatarFollowFlag
      */
-    'name'?: string | null;
+    name?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserAvatarFollowFlag
      */
-    'username': string;
+    username: string;
     /**
      * Uuid of user in auth service.
      * @type {string}
      * @memberof UserAvatarFollowFlag
      */
-    'account_id'?: string | null;
+    account_id?: string | null;
     /**
      *
      * @type {ContentModelDetailWithoutThumbnail}
      * @memberof UserAvatarFollowFlag
      */
-    'profile_photo'?: ContentModelDetailWithoutThumbnail;
+    profile_photo?: ContentModelDetailWithoutThumbnail;
     /**
      *
      * @type {boolean}
      * @memberof UserAvatarFollowFlag
      */
-    'is_follow'?: boolean;
+    is_follow?: boolean;
 }

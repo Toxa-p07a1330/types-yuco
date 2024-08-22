@@ -18,4 +18,4 @@ export declare const FileTypeChoices: {
     readonly Photo: "photo";
     readonly Video: "video";
 };
-export type FileTypeChoices = typeof FileTypeChoices[keyof typeof FileTypeChoices];
+export type FileTypeChoices = (typeof FileTypeChoices)[keyof typeof FileTypeChoices];

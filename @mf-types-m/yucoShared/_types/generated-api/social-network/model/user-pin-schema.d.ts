@@ -20,5 +20,5 @@ export interface UserPinSchema {
      * @type {string}
      * @memberof UserPinSchema
      */
-    'pin': string;
+    pin: string;
 }

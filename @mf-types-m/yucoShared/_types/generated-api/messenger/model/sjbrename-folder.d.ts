@@ -20,11 +20,11 @@ export interface SJBRenameFolder {
      * @type {string}
      * @memberof SJBRenameFolder
      */
-    'old_name': string;
+    old_name: string;
     /**
      *
      * @type {string}
      * @memberof SJBRenameFolder
      */
-    'new_name': string;
+    new_name: string;
 }

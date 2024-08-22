@@ -21,5 +21,5 @@ export interface GroupPositionListSchema {
      * @type {Array<GroupPositionSchema>}
      * @memberof GroupPositionListSchema
      */
-    'data': Array<GroupPositionSchema>;
+    data: Array<GroupPositionSchema>;
 }

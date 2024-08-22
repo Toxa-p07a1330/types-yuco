@@ -20,5 +20,5 @@ export interface MSResponseReadUrl {
      * @type {string}
      * @memberof MSResponseReadUrl
      */
-    'url': string;
+    url: string;
 }

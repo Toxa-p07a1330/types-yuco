@@ -20,11 +20,11 @@ export interface OAuthSchema {
      * @type {string}
      * @memberof OAuthSchema
      */
-    'code': string;
+    code: string;
     /**
      *
      * @type {string}
      * @memberof OAuthSchema
      */
-    'redirect_uri': string;
+    redirect_uri: string;
 }

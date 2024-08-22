@@ -20,55 +20,55 @@ export interface CommentDetailSchema {
      * @type {number}
      * @memberof CommentDetailSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {number}
      * @memberof CommentDetailSchema
      */
-    'likes_count'?: number;
+    likes_count?: number;
     /**
      *
      * @type {boolean}
      * @memberof CommentDetailSchema
      */
-    'is_active'?: boolean;
+    is_active?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof CommentDetailSchema
      */
-    'no_reply'?: boolean;
+    no_reply?: boolean;
     /**
      *
      * @type {string}
      * @memberof CommentDetailSchema
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof CommentDetailSchema
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {string}
      * @memberof CommentDetailSchema
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof CommentDetailSchema
      */
-    'text'?: string | null;
+    text?: string | null;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof CommentDetailSchema
      */
-    'mentioned_users'?: {
+    mentioned_users?: {
         [key: string]: number;
     };
 }

@@ -20,5 +20,5 @@ export interface FollowRequestStatus {
      * @type {string}
      * @memberof FollowRequestStatus
      */
-    'status': string;
+    status: string;
 }

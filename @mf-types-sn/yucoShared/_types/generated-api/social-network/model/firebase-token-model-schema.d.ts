@@ -20,23 +20,23 @@ export interface FirebaseTokenModelSchema {
      * @type {number}
      * @memberof FirebaseTokenModelSchema
      */
-    'id': number;
+    id: number;
     /**
      * Firebase токен
      * @type {string}
      * @memberof FirebaseTokenModelSchema
      */
-    'token': string;
+    token: string;
     /**
      * Платформа для которой сгенерирован токен
      * @type {string}
      * @memberof FirebaseTokenModelSchema
      */
-    'platform': string;
+    platform: string;
     /**
      * Активный токен
      * @type {boolean}
      * @memberof FirebaseTokenModelSchema
      */
-    'is_active'?: boolean;
+    is_active?: boolean;
 }

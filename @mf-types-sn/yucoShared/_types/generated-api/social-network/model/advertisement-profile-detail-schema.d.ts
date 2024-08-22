@@ -23,101 +23,101 @@ export interface AdvertisementProfileDetailSchema {
      * @type {number}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'surname': string;
+    surname: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'patronymic'?: string | null;
+    patronymic?: string | null;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'email': string;
+    email: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'company'?: string | null;
+    company?: string | null;
     /**
      * LEGAL: legal<br/>PHYSICAL: physical
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'legal_status': string;
+    legal_status: string;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'notify_passed_moderation'?: boolean;
+    notify_passed_moderation?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'daily_limit_reached'?: boolean;
+    daily_limit_reached?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'ad_completed'?: boolean;
+    ad_completed?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'user_agreement_accepted'?: boolean;
+    user_agreement_accepted?: boolean;
     /**
      * BUSINESS: business<br/>PROFESSIONAL: professional
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'type': string;
+    type: string;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'connect_ord'?: boolean;
+    connect_ord?: boolean;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'tin': string;
+    tin: string;
     /**
      *
      * @type {Country}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'country': Country;
+    country: Country;
     /**
      *
      * @type {Currency}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'currency': Currency;
+    currency: Currency;
     /**
      *
      * @type {Timezone}
      * @memberof AdvertisementProfileDetailSchema
      */
-    'timezone': Timezone;
+    timezone: Timezone;
 }

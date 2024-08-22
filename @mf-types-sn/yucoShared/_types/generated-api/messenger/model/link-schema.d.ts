@@ -20,5 +20,5 @@ export interface LinkSchema {
      * @type {string}
      * @memberof LinkSchema
      */
-    'link': string;
+    link: string;
 }

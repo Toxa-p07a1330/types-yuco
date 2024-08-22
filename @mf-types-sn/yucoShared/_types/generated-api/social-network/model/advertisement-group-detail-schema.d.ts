@@ -22,65 +22,65 @@ export interface AdvertisementGroupDetailSchema {
      * @type {number}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'name': string;
+    name: string;
     /**
      * IN_THE_FEED: in_the_feed<br/>IN_STORIES: in_stories<br/>IN_SEARCH: in_search
      * @type {string}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'position': string;
+    position: string;
     /**
      * CPC: cpc<br/>CPM: cpm
      * @type {string}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'price_type': string;
+    price_type: string;
     /**
      *
      * @type {number}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'price': number;
+    price: number;
     /**
      *
      * @type {number}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'budget_constraint': number;
+    budget_constraint: number;
     /**
      * NEW: new<br/>PAUSE: pause<br/>ACTIVE: active<br/>REJECTED: rejected<br/>MODERATED: moderated<br/>COMPLETED: completed
      * @type {string}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'status': string;
+    status: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'run_time_start': string;
+    run_time_start: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'run_time_end': string;
+    run_time_end: string;
     /**
      *
      * @type {AdvertisementCampaign}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'advertisement_campaign': AdvertisementCampaign;
+    advertisement_campaign: AdvertisementCampaign;
     /**
      *
      * @type {Audience}
      * @memberof AdvertisementGroupDetailSchema
      */
-    'audience': Audience;
+    audience: Audience;
 }

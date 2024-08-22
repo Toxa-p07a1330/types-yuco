@@ -22,29 +22,29 @@ export interface ContentSchemaWithoutThumbnail {
      * @type {FileTypeChoices}
      * @memberof ContentSchemaWithoutThumbnail
      */
-    'file_type'?: FileTypeChoices;
+    file_type?: FileTypeChoices;
     /**
      *
      * @type {string}
      * @memberof ContentSchemaWithoutThumbnail
      */
-    'content_type'?: string;
+    content_type?: string;
     /**
      *
      * @type {string}
      * @memberof ContentSchemaWithoutThumbnail
      */
-    'hash_name': string;
+    hash_name: string;
     /**
      *
      * @type {Array<string>}
      * @memberof ContentSchemaWithoutThumbnail
      */
-    'available_sizes': Array<string>;
+    available_sizes: Array<string>;
     /**
      *
      * @type {Array<ReadUrlSchema>}
      * @memberof ContentSchemaWithoutThumbnail
      */
-    'read_urls'?: Array<ReadUrlSchema>;
+    read_urls?: Array<ReadUrlSchema>;
 }

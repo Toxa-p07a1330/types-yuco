@@ -21,5 +21,5 @@ export interface StoryHiddenList {
      * @type {Array<StoryHiddenUser>}
      * @memberof StoryHiddenList
      */
-    'data': Array<StoryHiddenUser>;
+    data: Array<StoryHiddenUser>;
 }

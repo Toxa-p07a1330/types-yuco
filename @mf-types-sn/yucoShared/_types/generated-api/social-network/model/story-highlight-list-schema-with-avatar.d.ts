@@ -21,5 +21,5 @@ export interface StoryHighlightListSchemaWithAvatar {
      * @type {Array<HighlightDetailSchema>}
      * @memberof StoryHighlightListSchemaWithAvatar
      */
-    'data': Array<HighlightDetailSchema>;
+    data: Array<HighlightDetailSchema>;
 }

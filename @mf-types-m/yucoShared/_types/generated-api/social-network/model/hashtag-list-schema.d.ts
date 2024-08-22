@@ -21,5 +21,5 @@ export interface HashtagListSchema {
      * @type {Array<HashtagSearchSchema>}
      * @memberof HashtagListSchema
      */
-    'data': Array<HashtagSearchSchema>;
+    data: Array<HashtagSearchSchema>;
 }

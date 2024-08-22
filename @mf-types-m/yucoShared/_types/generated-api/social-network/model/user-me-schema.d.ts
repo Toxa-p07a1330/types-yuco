@@ -21,163 +21,163 @@ export interface UserMeSchema {
      * @type {string}
      * @memberof UserMeSchema
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'updated_at'?: string | null;
+    updated_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'name'?: string | null;
+    name?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'birthday'?: string | null;
+    birthday?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'sex'?: string | null;
+    sex?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'bio'?: string | null;
+    bio?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'link'?: string | null;
+    link?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'user_type': string;
+    user_type: string;
     /**
      *
      * @type {boolean}
      * @memberof UserMeSchema
      */
-    'is_active'?: boolean;
+    is_active?: boolean;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'profession'?: string | null;
+    profession?: string | null;
     /**
      * Account if private (for followers only)
      * @type {boolean}
      * @memberof UserMeSchema
      */
-    'is_private'?: boolean;
+    is_private?: boolean;
     /**
      * Uuid of user in auth service.
      * @type {string}
      * @memberof UserMeSchema
      */
-    'account_id'?: string | null;
+    account_id?: string | null;
     /**
      * Verified badge
      * @type {boolean}
      * @memberof UserMeSchema
      */
-    'verified'?: boolean;
+    verified?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserMeSchema
      */
-    'have_password'?: boolean;
+    have_password?: boolean;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'likes_count'?: number;
+    likes_count?: number;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'posts_count'?: number;
+    posts_count?: number;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'count_followers'?: number;
+    count_followers?: number;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'count_following'?: number;
+    count_following?: number;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'count_friends'?: number;
+    count_friends?: number;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'following_hashtags_count'?: number;
+    following_hashtags_count?: number;
     /**
      *
      * @type {ContentModelDetailWithoutThumbnail}
      * @memberof UserMeSchema
      */
-    'profile_photo'?: ContentModelDetailWithoutThumbnail;
+    profile_photo?: ContentModelDetailWithoutThumbnail;
     /**
      *
      * @type {boolean}
      * @memberof UserMeSchema
      */
-    'new_notifications'?: boolean;
+    new_notifications?: boolean;
     /**
      *
      * @type {number}
      * @memberof UserMeSchema
      */
-    'unapproved_tags_count': number;
+    unapproved_tags_count: number;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof UserMeSchema
      */
-    'mentioned_users_in_bio'?: {
+    mentioned_users_in_bio?: {
         [key: string]: number;
     };
     /**
@@ -185,11 +185,11 @@ export interface UserMeSchema {
      * @type {string}
      * @memberof UserMeSchema
      */
-    'phone'?: string;
+    phone?: string;
     /**
      *
      * @type {string}
      * @memberof UserMeSchema
      */
-    'email'?: string;
+    email?: string;
 }

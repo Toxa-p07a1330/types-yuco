@@ -20,43 +20,43 @@ export interface SJBConnectRequest {
      * @type {string}
      * @memberof SJBConnectRequest
      */
-    'client': string;
+    client: string;
     /**
      *
      * @type {string}
      * @memberof SJBConnectRequest
      */
-    'encoding': SJBConnectRequestEncodingEnum;
+    encoding: SJBConnectRequestEncodingEnum;
     /**
      *
      * @type {string}
      * @memberof SJBConnectRequest
      */
-    'protocol': SJBConnectRequestProtocolEnum;
+    protocol: SJBConnectRequestProtocolEnum;
     /**
      *
      * @type {string}
      * @memberof SJBConnectRequest
      */
-    'transport': SJBConnectRequestTransportEnum;
+    transport: SJBConnectRequestTransportEnum;
     /**
      *
      * @type {{ [key: string]: string; }}
      * @memberof SJBConnectRequest
      */
-    'data': {
+    data: {
         [key: string]: string;
     };
 }
 export declare const SJBConnectRequestEncodingEnum: {
     readonly Json: "json";
 };
-export type SJBConnectRequestEncodingEnum = typeof SJBConnectRequestEncodingEnum[keyof typeof SJBConnectRequestEncodingEnum];
+export type SJBConnectRequestEncodingEnum = (typeof SJBConnectRequestEncodingEnum)[keyof typeof SJBConnectRequestEncodingEnum];
 export declare const SJBConnectRequestProtocolEnum: {
     readonly Json: "json";
 };
-export type SJBConnectRequestProtocolEnum = typeof SJBConnectRequestProtocolEnum[keyof typeof SJBConnectRequestProtocolEnum];
+export type SJBConnectRequestProtocolEnum = (typeof SJBConnectRequestProtocolEnum)[keyof typeof SJBConnectRequestProtocolEnum];
 export declare const SJBConnectRequestTransportEnum: {
     readonly Websocket: "websocket";
 };
-export type SJBConnectRequestTransportEnum = typeof SJBConnectRequestTransportEnum[keyof typeof SJBConnectRequestTransportEnum];
+export type SJBConnectRequestTransportEnum = (typeof SJBConnectRequestTransportEnum)[keyof typeof SJBConnectRequestTransportEnum];

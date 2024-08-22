@@ -20,35 +20,35 @@ export interface ContentOverlayCandidateSchema {
      * @type {number}
      * @memberof ContentOverlayCandidateSchema
      */
-    'x': number;
+    x: number;
     /**
      * Оффсет по высоте
      * @type {number}
      * @memberof ContentOverlayCandidateSchema
      */
-    'y': number;
+    y: number;
     /**
      * Ширина
      * @type {number}
      * @memberof ContentOverlayCandidateSchema
      */
-    'width': number;
+    width: number;
     /**
      * Высота
      * @type {number}
      * @memberof ContentOverlayCandidateSchema
      */
-    'height': number;
+    height: number;
     /**
      * Угол поворота
      * @type {number}
      * @memberof ContentOverlayCandidateSchema
      */
-    'rotate'?: number;
+    rotate?: number;
     /**
      *
      * @type {string}
      * @memberof ContentOverlayCandidateSchema
      */
-    'hash_name': string;
+    hash_name: string;
 }

@@ -20,11 +20,11 @@ export interface LoginSchema {
      * @type {string}
      * @memberof LoginSchema
      */
-    'login': string;
+    login: string;
     /**
      *
      * @type {string}
      * @memberof LoginSchema
      */
-    'password': string;
+    password: string;
 }

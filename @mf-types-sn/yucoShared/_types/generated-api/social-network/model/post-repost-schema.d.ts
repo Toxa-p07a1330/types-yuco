@@ -20,5 +20,5 @@ export interface PostRepostSchema {
      * @type {number}
      * @memberof PostRepostSchema
      */
-    'post_id': number;
+    post_id: number;
 }

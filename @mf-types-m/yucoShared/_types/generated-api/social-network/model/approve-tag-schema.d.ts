@@ -20,11 +20,11 @@ export interface ApproveTagSchema {
      * @type {boolean}
      * @memberof ApproveTagSchema
      */
-    'is_approved': boolean;
+    is_approved: boolean;
     /**
      *
      * @type {Array<number>}
      * @memberof ApproveTagSchema
      */
-    'post_ids': Array<number>;
+    post_ids: Array<number>;
 }

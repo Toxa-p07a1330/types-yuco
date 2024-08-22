@@ -20,35 +20,35 @@ export interface StoryHiddenUser {
      * @type {number}
      * @memberof StoryHiddenUser
      */
-    'id': number;
+    id: number;
     /**
      * Имя пользователя
      * @type {string}
      * @memberof StoryHiddenUser
      */
-    'name': string;
+    name: string;
     /**
      * Никнейм
      * @type {string}
      * @memberof StoryHiddenUser
      */
-    'username': string;
+    username: string;
     /**
      * Аватар
      * @type {string}
      * @memberof StoryHiddenUser
      */
-    'profile_photo': string;
+    profile_photo: string;
     /**
      * Подписан на текущего пользователя
      * @type {boolean}
      * @memberof StoryHiddenUser
      */
-    'is_follower': boolean;
+    is_follower: boolean;
     /**
      * Скрыта ли история от данного пользователя
      * @type {boolean}
      * @memberof StoryHiddenUser
      */
-    'is_hidden': boolean;
+    is_hidden: boolean;
 }

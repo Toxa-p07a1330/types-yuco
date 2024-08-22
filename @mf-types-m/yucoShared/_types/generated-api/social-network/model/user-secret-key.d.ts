@@ -20,5 +20,5 @@ export interface UserSecretKey {
      * @type {any}
      * @memberof UserSecretKey
      */
-    'keys'?: any;
+    keys?: any;
 }

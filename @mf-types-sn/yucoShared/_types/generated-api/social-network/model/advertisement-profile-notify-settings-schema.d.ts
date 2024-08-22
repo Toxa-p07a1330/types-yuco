@@ -20,17 +20,17 @@ export interface AdvertisementProfileNotifySettingsSchema {
      * @type {boolean}
      * @memberof AdvertisementProfileNotifySettingsSchema
      */
-    'notify_passed_moderation': boolean;
+    notify_passed_moderation: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileNotifySettingsSchema
      */
-    'daily_limit_reached': boolean;
+    daily_limit_reached: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileNotifySettingsSchema
      */
-    'ad_completed': boolean;
+    ad_completed: boolean;
 }

@@ -20,5 +20,5 @@ export interface TokenList {
      * @type {Array<string>}
      * @memberof TokenList
      */
-    'tokens': Array<string>;
+    tokens: Array<string>;
 }

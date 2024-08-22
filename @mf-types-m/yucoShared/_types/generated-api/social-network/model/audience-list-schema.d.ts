@@ -21,5 +21,5 @@ export interface AudienceListSchema {
      * @type {Array<Audience>}
      * @memberof AudienceListSchema
      */
-    'data': Array<Audience>;
+    data: Array<Audience>;
 }

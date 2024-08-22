@@ -20,29 +20,29 @@ export interface HashtagWithFollowingFlag {
      * @type {number}
      * @memberof HashtagWithFollowingFlag
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof HashtagWithFollowingFlag
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {number}
      * @memberof HashtagWithFollowingFlag
      */
-    'followers_count': number;
+    followers_count: number;
     /**
      *
      * @type {number}
      * @memberof HashtagWithFollowingFlag
      */
-    'score': number;
+    score: number;
     /**
      *
      * @type {boolean}
      * @memberof HashtagWithFollowingFlag
      */
-    'is_following'?: boolean;
+    is_following?: boolean;
 }

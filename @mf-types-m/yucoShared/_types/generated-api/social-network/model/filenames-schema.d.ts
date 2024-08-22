@@ -20,5 +20,5 @@ export interface FilenamesSchema {
      * @type {Array<string>}
      * @memberof FilenamesSchema
      */
-    'filenames': Array<string>;
+    filenames: Array<string>;
 }

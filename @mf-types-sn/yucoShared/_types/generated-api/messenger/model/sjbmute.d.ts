@@ -22,11 +22,11 @@ export interface SJBMute {
      * @type {MuteTypeEnum}
      * @memberof SJBMute
      */
-    'type': MuteTypeEnum;
+    type: MuteTypeEnum;
     /**
      *
      * @type {Period}
      * @memberof SJBMute
      */
-    'period'?: Period;
+    period?: Period;
 }

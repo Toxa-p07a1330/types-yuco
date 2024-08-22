@@ -18,4 +18,4 @@ export declare const TypeChoices: {
     readonly Business: "business";
     readonly Professional: "professional";
 };
-export type TypeChoices = typeof TypeChoices[keyof typeof TypeChoices];
+export type TypeChoices = (typeof TypeChoices)[keyof typeof TypeChoices];

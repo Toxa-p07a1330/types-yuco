@@ -21,11 +21,11 @@ export interface MSReadURL {
      * @type {string}
      * @memberof MSReadURL
      */
-    'url': string;
+    url: string;
     /**
      *
      * @type {SizeType}
      * @memberof MSReadURL
      */
-    'size_type': SizeType;
+    size_type: SizeType;
 }

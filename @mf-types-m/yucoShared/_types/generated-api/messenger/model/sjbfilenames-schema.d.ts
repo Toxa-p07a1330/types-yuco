@@ -20,5 +20,5 @@ export interface SJBFilenamesSchema {
      * @type {Array<string>}
      * @memberof SJBFilenamesSchema
      */
-    'filenames': Array<string>;
+    filenames: Array<string>;
 }

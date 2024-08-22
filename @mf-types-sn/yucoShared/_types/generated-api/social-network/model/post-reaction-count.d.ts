@@ -20,13 +20,13 @@ export interface PostReactionCount {
      * @type {number}
      * @memberof PostReactionCount
      */
-    'comments_count': number;
+    comments_count: number;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof PostReactionCount
      */
-    'reactions': {
+    reactions: {
         [key: string]: number;
     };
 }

@@ -20,5 +20,5 @@ export interface SJBLeaveChat {
      * @type {string}
      * @memberof SJBLeaveChat
      */
-    'successor'?: string;
+    successor?: string;
 }

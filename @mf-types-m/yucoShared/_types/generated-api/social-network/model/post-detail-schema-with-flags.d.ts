@@ -23,121 +23,121 @@ export interface PostDetailSchemaWithFlags {
      * @type {number}
      * @memberof PostDetailSchemaWithFlags
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof PostDetailSchemaWithFlags
      */
-    'title'?: string | null;
+    title?: string | null;
     /**
      *
      * @type {string}
      * @memberof PostDetailSchemaWithFlags
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof PostDetailSchemaWithFlags
      */
-    'updated_at'?: string | null;
+    updated_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof PostDetailSchemaWithFlags
      */
-    'created_at': string;
+    created_at: string;
     /**
      * Цвет поста
      * @type {string}
      * @memberof PostDetailSchemaWithFlags
      */
-    'tag_color': string;
+    tag_color: string;
     /**
      *
      * @type {number}
      * @memberof PostDetailSchemaWithFlags
      */
-    'height'?: number | null;
+    height?: number | null;
     /**
      *
      * @type {number}
      * @memberof PostDetailSchemaWithFlags
      */
-    'aspect_ratio'?: number | null;
+    aspect_ratio?: number | null;
     /**
      *
      * @type {boolean}
      * @memberof PostDetailSchemaWithFlags
      */
-    'share_to_vk'?: boolean;
+    share_to_vk?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostDetailSchemaWithFlags
      */
-    'likes_visible'?: boolean;
+    likes_visible?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostDetailSchemaWithFlags
      */
-    'share_enable'?: boolean;
+    share_enable?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostDetailSchemaWithFlags
      */
-    'comments_enable'?: boolean;
+    comments_enable?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostDetailSchemaWithFlags
      */
-    'reactions_enable'?: boolean;
+    reactions_enable?: boolean;
     /**
      *
      * @type {any}
      * @memberof PostDetailSchemaWithFlags
      */
-    'configuration'?: any;
+    configuration?: any;
     /**
      *
      * @type {string}
      * @memberof PostDetailSchemaWithFlags
      */
-    'content_type'?: string | null;
+    content_type?: string | null;
     /**
      *
      * @type {number}
      * @memberof PostDetailSchemaWithFlags
      */
-    'progress_status'?: number;
+    progress_status?: number;
     /**
      *
      * @type {UserModelWithPhoto}
      * @memberof PostDetailSchemaWithFlags
      */
-    'author': UserModelWithPhoto;
+    author: UserModelWithPhoto;
     /**
      *
      * @type {LocationModelSchema}
      * @memberof PostDetailSchemaWithFlags
      */
-    'location'?: LocationModelSchema;
+    location?: LocationModelSchema;
     /**
      *
      * @type {Array<ContentTagSchema>}
      * @memberof PostDetailSchemaWithFlags
      */
-    'contents': Array<ContentTagSchema>;
+    contents: Array<ContentTagSchema>;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof PostDetailSchemaWithFlags
      */
-    'reactions'?: {
+    reactions?: {
         [key: string]: number;
     };
     /**
@@ -145,19 +145,19 @@ export interface PostDetailSchemaWithFlags {
      * @type {string}
      * @memberof PostDetailSchemaWithFlags
      */
-    'self_reaction'?: string;
+    self_reaction?: string;
     /**
      *
      * @type {boolean}
      * @memberof PostDetailSchemaWithFlags
      */
-    'is_save': boolean;
+    is_save: boolean;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof PostDetailSchemaWithFlags
      */
-    'mentioned_users'?: {
+    mentioned_users?: {
         [key: string]: number;
     };
 }

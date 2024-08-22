@@ -20,5 +20,5 @@ export interface UnreadNotification {
      * @type {boolean}
      * @memberof UnreadNotification
      */
-    'unread_notifications': boolean;
+    unread_notifications: boolean;
 }

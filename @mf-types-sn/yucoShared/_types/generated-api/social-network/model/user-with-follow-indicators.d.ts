@@ -21,119 +21,119 @@ export interface UserWithFollowIndicators {
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'updated_at'?: string | null;
+    updated_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {number}
      * @memberof UserWithFollowIndicators
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'name'?: string | null;
+    name?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'birthday'?: string | null;
+    birthday?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'sex'?: string | null;
+    sex?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'bio'?: string | null;
+    bio?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'link'?: string | null;
+    link?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'user_type': string;
+    user_type: string;
     /**
      *
      * @type {boolean}
      * @memberof UserWithFollowIndicators
      */
-    'is_active'?: boolean;
+    is_active?: boolean;
     /**
      *
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'profession'?: string | null;
+    profession?: string | null;
     /**
      * Account if private (for followers only)
      * @type {boolean}
      * @memberof UserWithFollowIndicators
      */
-    'is_private'?: boolean;
+    is_private?: boolean;
     /**
      * Uuid of user in auth service.
      * @type {string}
      * @memberof UserWithFollowIndicators
      */
-    'account_id'?: string | null;
+    account_id?: string | null;
     /**
      * Verified badge
      * @type {boolean}
      * @memberof UserWithFollowIndicators
      */
-    'verified'?: boolean;
+    verified?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserWithFollowIndicators
      */
-    'is_follow': boolean;
+    is_follow: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserWithFollowIndicators
      */
-    'is_follower': boolean;
+    is_follower: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserWithFollowIndicators
      */
-    'is_follow_request_sent': boolean;
+    is_follow_request_sent: boolean;
     /**
      *
      * @type {ContentModelDetailWithoutThumbnail}
      * @memberof UserWithFollowIndicators
      */
-    'profile_photo'?: ContentModelDetailWithoutThumbnail;
+    profile_photo?: ContentModelDetailWithoutThumbnail;
 }

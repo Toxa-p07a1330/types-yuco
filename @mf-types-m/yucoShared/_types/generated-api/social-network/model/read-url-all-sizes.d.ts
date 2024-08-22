@@ -21,5 +21,5 @@ export interface ReadUrlAllSizes {
      * @type {Array<ReadUrlWithSize>}
      * @memberof ReadUrlAllSizes
      */
-    'data': Array<ReadUrlWithSize>;
+    data: Array<ReadUrlWithSize>;
 }

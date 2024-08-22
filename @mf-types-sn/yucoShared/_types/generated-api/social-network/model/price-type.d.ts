@@ -18,4 +18,4 @@ export declare const PriceType: {
     readonly Cpc: "cpc";
     readonly Cpm: "cpm";
 };
-export type PriceType = typeof PriceType[keyof typeof PriceType];
+export type PriceType = (typeof PriceType)[keyof typeof PriceType];

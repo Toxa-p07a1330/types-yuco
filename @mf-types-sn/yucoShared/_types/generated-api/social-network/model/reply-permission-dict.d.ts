@@ -21,5 +21,5 @@ export interface ReplyPermissionDict {
      * @type {ReplyPermissionChoices}
      * @memberof ReplyPermissionDict
      */
-    'reply_permission': ReplyPermissionChoices;
+    reply_permission: ReplyPermissionChoices;
 }

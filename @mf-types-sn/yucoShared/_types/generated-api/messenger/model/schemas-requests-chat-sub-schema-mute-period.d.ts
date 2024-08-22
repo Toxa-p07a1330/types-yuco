@@ -20,11 +20,11 @@ export interface SchemasRequestsChatSubSchemaMutePeriod {
      * @type {string}
      * @memberof SchemasRequestsChatSubSchemaMutePeriod
      */
-    'since': string;
+    since: string;
     /**
      *
      * @type {string}
      * @memberof SchemasRequestsChatSubSchemaMutePeriod
      */
-    'till': string;
+    till: string;
 }

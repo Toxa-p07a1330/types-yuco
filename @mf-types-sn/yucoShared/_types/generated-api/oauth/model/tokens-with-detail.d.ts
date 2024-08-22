@@ -21,11 +21,11 @@ export interface TokensWithDetail {
      * @type {string}
      * @memberof TokensWithDetail
      */
-    'detail': string;
+    detail: string;
     /**
      *
      * @type {JwtTokenSchema}
      * @memberof TokensWithDetail
      */
-    'tokens': JwtTokenSchema;
+    tokens: JwtTokenSchema;
 }

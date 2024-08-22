@@ -22,95 +22,95 @@ export interface AdvertisementProfileCreateSchema {
      * @type {string}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'name'?: string;
+    name?: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'surname'?: string;
+    surname?: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'patronymic'?: string;
+    patronymic?: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'email': string;
+    email: string;
     /**
      *
      * @type {number}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'country_id': number;
+    country_id: number;
     /**
      *
      * @type {number}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'currency_id': number;
+    currency_id: number;
     /**
      *
      * @type {number}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'timezone_id': number;
+    timezone_id: number;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'company'?: string;
+    company?: string;
     /**
      *
      * @type {LegalStatusChoices}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'legal_status': LegalStatusChoices;
+    legal_status: LegalStatusChoices;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'notify_passed_moderation'?: boolean;
+    notify_passed_moderation?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'daily_limit_reached'?: boolean;
+    daily_limit_reached?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'ad_completed'?: boolean;
+    ad_completed?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'user_agreement_accepted'?: boolean;
+    user_agreement_accepted?: boolean;
     /**
      *
      * @type {string}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'tin': string;
+    tin: string;
     /**
      *
      * @type {TypeChoices}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'type': TypeChoices;
+    type: TypeChoices;
     /**
      *
      * @type {boolean}
      * @memberof AdvertisementProfileCreateSchema
      */
-    'connect_ord'?: boolean;
+    connect_ord?: boolean;
 }

@@ -20,11 +20,11 @@ export interface SJBAddChatsToFolder {
      * @type {Set<string>}
      * @memberof SJBAddChatsToFolder
      */
-    'chat_ids': Set<string>;
+    chat_ids: Set<string>;
     /**
      *
      * @type {string}
      * @memberof SJBAddChatsToFolder
      */
-    'directory_name': string;
+    directory_name: string;
 }

@@ -21,109 +21,109 @@ export interface UserModelWithPhoto {
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'updated_at'?: string | null;
+    updated_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {number}
      * @memberof UserModelWithPhoto
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'name'?: string | null;
+    name?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'birthday'?: string | null;
+    birthday?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'sex'?: string | null;
+    sex?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'bio'?: string | null;
+    bio?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'link'?: string | null;
+    link?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'user_type': string;
+    user_type: string;
     /**
      *
      * @type {boolean}
      * @memberof UserModelWithPhoto
      */
-    'is_active'?: boolean;
+    is_active?: boolean;
     /**
      *
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'profession'?: string | null;
+    profession?: string | null;
     /**
      * Account if private (for followers only)
      * @type {boolean}
      * @memberof UserModelWithPhoto
      */
-    'is_private'?: boolean;
+    is_private?: boolean;
     /**
      * Uuid of user in auth service.
      * @type {string}
      * @memberof UserModelWithPhoto
      */
-    'account_id'?: string | null;
+    account_id?: string | null;
     /**
      * Verified badge
      * @type {boolean}
      * @memberof UserModelWithPhoto
      */
-    'verified'?: boolean;
+    verified?: boolean;
     /**
      *
      * @type {ContentModelDetailWithoutThumbnail}
      * @memberof UserModelWithPhoto
      */
-    'profile_photo'?: ContentModelDetailWithoutThumbnail;
+    profile_photo?: ContentModelDetailWithoutThumbnail;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof UserModelWithPhoto
      */
-    'mentioned_users_in_bio'?: {
+    mentioned_users_in_bio?: {
         [key: string]: number;
     };
 }

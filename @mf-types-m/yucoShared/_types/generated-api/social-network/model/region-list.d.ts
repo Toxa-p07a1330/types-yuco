@@ -21,5 +21,5 @@ export interface RegionList {
      * @type {Array<SearchRegionModelSchema>}
      * @memberof RegionList
      */
-    'data': Array<SearchRegionModelSchema>;
+    data: Array<SearchRegionModelSchema>;
 }

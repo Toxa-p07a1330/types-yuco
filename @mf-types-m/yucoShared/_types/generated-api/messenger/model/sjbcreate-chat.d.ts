@@ -22,23 +22,23 @@ export interface SJBCreateChat {
      * @type {string}
      * @memberof SJBCreateChat
      */
-    'title'?: string;
+    title?: string;
     /**
      *
      * @type {string}
      * @memberof SJBCreateChat
      */
-    'icon_hashname'?: string;
+    icon_hashname?: string;
     /**
      *
      * @type {Array<SubSchemaChatMember>}
      * @memberof SJBCreateChat
      */
-    'members': Array<SubSchemaChatMember>;
+    members: Array<SubSchemaChatMember>;
     /**
      *
      * @type {Chat}
      * @memberof SJBCreateChat
      */
-    'type': Chat;
+    type: Chat;
 }

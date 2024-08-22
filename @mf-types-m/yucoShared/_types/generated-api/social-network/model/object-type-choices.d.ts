@@ -19,4 +19,4 @@ export declare const ObjectTypeChoices: {
     readonly Comment: "comment";
     readonly Story: "story";
 };
-export type ObjectTypeChoices = typeof ObjectTypeChoices[keyof typeof ObjectTypeChoices];
+export type ObjectTypeChoices = (typeof ObjectTypeChoices)[keyof typeof ObjectTypeChoices];

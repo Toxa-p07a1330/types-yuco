@@ -20,11 +20,11 @@ export interface SubSchemaForwardMessage {
      * @type {string}
      * @memberof SubSchemaForwardMessage
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {string}
      * @memberof SubSchemaForwardMessage
      */
-    'cache_id': string;
+    cache_id: string;
 }

@@ -20,17 +20,17 @@ export interface ViewContentsSchema {
      * @type {number}
      * @memberof ViewContentsSchema
      */
-    'author_id': number;
+    author_id: number;
     /**
      *
      * @type {number}
      * @memberof ViewContentsSchema
      */
-    'object_id': number;
+    object_id: number;
     /**
      *
      * @type {Array<number>}
      * @memberof ViewContentsSchema
      */
-    'content_ids': Array<number>;
+    content_ids: Array<number>;
 }

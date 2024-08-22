@@ -20,5 +20,5 @@ export interface LiveTokenModel {
      * @type {string}
      * @memberof LiveTokenModel
      */
-    'live_token': string;
+    live_token: string;
 }

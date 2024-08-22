@@ -20,35 +20,35 @@ export interface PhoneCodes {
      * @type {number}
      * @memberof PhoneCodes
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof PhoneCodes
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {string}
      * @memberof PhoneCodes
      */
-    'mask': string;
+    mask: string;
     /**
      *
      * @type {string}
      * @memberof PhoneCodes
      */
-    'index': string;
+    index: string;
     /**
      *
      * @type {string}
      * @memberof PhoneCodes
      */
-    'cc': string;
+    cc: string;
     /**
      *
      * @type {string}
      * @memberof PhoneCodes
      */
-    'flag'?: string | null;
+    flag?: string | null;
 }

@@ -22,4 +22,4 @@ export declare const CampaignStatus: {
     readonly Moderated: "moderated";
     readonly Completed: "completed";
 };
-export type CampaignStatus = typeof CampaignStatus[keyof typeof CampaignStatus];
+export type CampaignStatus = (typeof CampaignStatus)[keyof typeof CampaignStatus];

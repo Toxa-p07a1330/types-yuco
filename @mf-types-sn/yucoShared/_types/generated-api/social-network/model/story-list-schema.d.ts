@@ -21,5 +21,5 @@ export interface StoryListSchema {
      * @type {Array<StoryModelSchemaDetail>}
      * @memberof StoryListSchema
      */
-    'data': Array<StoryModelSchemaDetail>;
+    data: Array<StoryModelSchemaDetail>;
 }

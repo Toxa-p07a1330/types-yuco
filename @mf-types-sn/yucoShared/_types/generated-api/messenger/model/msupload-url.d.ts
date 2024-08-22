@@ -20,17 +20,17 @@ export interface MSUploadUrl {
      * @type {string}
      * @memberof MSUploadUrl
      */
-    'filename': string;
+    filename: string;
     /**
      *
      * @type {string}
      * @memberof MSUploadUrl
      */
-    'hashname': string;
+    hashname: string;
     /**
      *
      * @type {string}
      * @memberof MSUploadUrl
      */
-    'upload_url': string;
+    upload_url: string;
 }

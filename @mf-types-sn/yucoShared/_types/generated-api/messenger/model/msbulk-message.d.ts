@@ -23,7 +23,7 @@ export interface MSBulkMessage {
      * @type {{ [key: string]: Reactions; }}
      * @memberof MSBulkMessage
      */
-    'reactions'?: {
+    reactions?: {
         [key: string]: Reactions;
     };
     /**
@@ -31,101 +31,101 @@ export interface MSBulkMessage {
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'self_reaction'?: string;
+    self_reaction?: string;
     /**
      *
      * @type {boolean}
      * @memberof MSBulkMessage
      */
-    'is_read'?: boolean;
+    is_read?: boolean;
     /**
      *
      * @type {SourceMessage}
      * @memberof MSBulkMessage
      */
-    'source_message'?: SourceMessage;
+    source_message?: SourceMessage;
     /**
      *
      * @type {Array<MSAttachment>}
      * @memberof MSBulkMessage
      */
-    'attachments'?: Array<MSAttachment>;
+    attachments?: Array<MSAttachment>;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {boolean}
      * @memberof MSBulkMessage
      */
-    'edited': boolean;
+    edited: boolean;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'cache_id': string;
+    cache_id: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'message'?: string;
+    message?: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'account_uuid': string;
+    account_uuid: string;
     /**
      *
      * @type {number}
      * @memberof MSBulkMessage
      */
-    'object_uuid'?: number;
+    object_uuid?: number;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'object_type'?: string;
+    object_type?: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'deleted_at'?: string;
+    deleted_at?: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'chat_uuid': string;
+    chat_uuid: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'fw_source_message'?: string;
+    fw_source_message?: string;
     /**
      *
      * @type {string}
      * @memberof MSBulkMessage
      */
-    'fw_source_account_uuid'?: string;
+    fw_source_account_uuid?: string;
 }

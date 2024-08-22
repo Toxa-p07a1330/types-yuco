@@ -21,41 +21,41 @@ export interface UpdateGlobalSettings {
      * @type {ReplyPermissionChoices}
      * @memberof UpdateGlobalSettings
      */
-    'reply_story_permission'?: ReplyPermissionChoices;
+    reply_story_permission?: ReplyPermissionChoices;
     /**
      *
      * @type {boolean}
      * @memberof UpdateGlobalSettings
      */
-    'tags_auto_approve'?: boolean;
+    tags_auto_approve?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UpdateGlobalSettings
      */
-    'push_notifications_enable'?: boolean;
+    push_notifications_enable?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UpdateGlobalSettings
      */
-    'likes_visible'?: boolean;
+    likes_visible?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UpdateGlobalSettings
      */
-    'share_enabled'?: boolean;
+    share_enabled?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UpdateGlobalSettings
      */
-    'comments_enabled'?: boolean;
+    comments_enabled?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UpdateGlobalSettings
      */
-    'reactions_enabled'?: boolean;
+    reactions_enabled?: boolean;
 }

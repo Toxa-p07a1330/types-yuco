@@ -21,13 +21,13 @@ export interface PostSearchListSchema {
      * @type {Array<PostSearchSchema>}
      * @memberof PostSearchListSchema
      */
-    'data': Array<PostSearchSchema>;
+    data: Array<PostSearchSchema>;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof PostSearchListSchema
      */
-    'mentioned_users'?: {
+    mentioned_users?: {
         [key: string]: number;
     };
 }

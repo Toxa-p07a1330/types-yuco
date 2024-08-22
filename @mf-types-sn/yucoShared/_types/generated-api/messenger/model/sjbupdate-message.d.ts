@@ -20,5 +20,5 @@ export interface SJBUpdateMessage {
      * @type {string}
      * @memberof SJBUpdateMessage
      */
-    'message': string;
+    message: string;
 }

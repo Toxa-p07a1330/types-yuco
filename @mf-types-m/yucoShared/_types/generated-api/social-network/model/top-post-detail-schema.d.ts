@@ -23,121 +23,121 @@ export interface TopPostDetailSchema {
      * @type {number}
      * @memberof TopPostDetailSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof TopPostDetailSchema
      */
-    'title'?: string | null;
+    title?: string | null;
     /**
      *
      * @type {string}
      * @memberof TopPostDetailSchema
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof TopPostDetailSchema
      */
-    'updated_at'?: string | null;
+    updated_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof TopPostDetailSchema
      */
-    'created_at': string;
+    created_at: string;
     /**
      * Цвет поста
      * @type {string}
      * @memberof TopPostDetailSchema
      */
-    'tag_color': string;
+    tag_color: string;
     /**
      *
      * @type {number}
      * @memberof TopPostDetailSchema
      */
-    'height'?: number | null;
+    height?: number | null;
     /**
      *
      * @type {number}
      * @memberof TopPostDetailSchema
      */
-    'aspect_ratio'?: number | null;
+    aspect_ratio?: number | null;
     /**
      *
      * @type {boolean}
      * @memberof TopPostDetailSchema
      */
-    'share_to_vk'?: boolean;
+    share_to_vk?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof TopPostDetailSchema
      */
-    'likes_visible'?: boolean;
+    likes_visible?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof TopPostDetailSchema
      */
-    'share_enable'?: boolean;
+    share_enable?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof TopPostDetailSchema
      */
-    'comments_enable'?: boolean;
+    comments_enable?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof TopPostDetailSchema
      */
-    'reactions_enable'?: boolean;
+    reactions_enable?: boolean;
     /**
      *
      * @type {any}
      * @memberof TopPostDetailSchema
      */
-    'configuration'?: any;
+    configuration?: any;
     /**
      *
      * @type {string}
      * @memberof TopPostDetailSchema
      */
-    'content_type'?: string | null;
+    content_type?: string | null;
     /**
      *
      * @type {number}
      * @memberof TopPostDetailSchema
      */
-    'progress_status'?: number;
+    progress_status?: number;
     /**
      *
      * @type {UserUsernameAvatar}
      * @memberof TopPostDetailSchema
      */
-    'author': UserUsernameAvatar;
+    author: UserUsernameAvatar;
     /**
      *
      * @type {LocationModelSchema}
      * @memberof TopPostDetailSchema
      */
-    'location'?: LocationModelSchema;
+    location?: LocationModelSchema;
     /**
      *
      * @type {Array<ContentTagSchema>}
      * @memberof TopPostDetailSchema
      */
-    'contents': Array<ContentTagSchema>;
+    contents: Array<ContentTagSchema>;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof TopPostDetailSchema
      */
-    'reactions'?: {
+    reactions?: {
         [key: string]: number;
     };
     /**
@@ -145,23 +145,23 @@ export interface TopPostDetailSchema {
      * @type {string}
      * @memberof TopPostDetailSchema
      */
-    'self_reaction'?: string;
+    self_reaction?: string;
     /**
      *
      * @type {boolean}
      * @memberof TopPostDetailSchema
      */
-    'is_save': boolean;
+    is_save: boolean;
     /**
      *
      * @type {boolean}
      * @memberof TopPostDetailSchema
      */
-    'following_reacted': boolean;
+    following_reacted: boolean;
     /**
      *
      * @type {number}
      * @memberof TopPostDetailSchema
      */
-    'reactions_count': number;
+    reactions_count: number;
 }

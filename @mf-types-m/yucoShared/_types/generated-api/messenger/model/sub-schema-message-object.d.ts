@@ -20,11 +20,11 @@ export interface SubSchemaMessageObject {
      * @type {number}
      * @memberof SubSchemaMessageObject
      */
-    'object_id': number;
+    object_id: number;
     /**
      *
      * @type {string}
      * @memberof SubSchemaMessageObject
      */
-    'object_type': string;
+    object_type: string;
 }

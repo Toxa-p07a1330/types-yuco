@@ -20,11 +20,11 @@ export interface StoryToHighlightSchema {
      * @type {number}
      * @memberof StoryToHighlightSchema
      */
-    'story_id': number;
+    story_id: number;
     /**
      *
      * @type {number}
      * @memberof StoryToHighlightSchema
      */
-    'highlight_id': number;
+    highlight_id: number;
 }

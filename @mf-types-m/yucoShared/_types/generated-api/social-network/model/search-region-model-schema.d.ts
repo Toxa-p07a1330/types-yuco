@@ -20,17 +20,17 @@ export interface SearchRegionModelSchema {
      * @type {number}
      * @memberof SearchRegionModelSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof SearchRegionModelSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {number}
      * @memberof SearchRegionModelSchema
      */
-    'score'?: number;
+    score?: number;
 }

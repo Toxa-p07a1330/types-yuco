@@ -21,17 +21,17 @@ export interface ValidationError {
      * @type {Array<LocationInner>}
      * @memberof ValidationError
      */
-    'loc': Array<LocationInner>;
+    loc: Array<LocationInner>;
     /**
      *
      * @type {string}
      * @memberof ValidationError
      */
-    'msg': string;
+    msg: string;
     /**
      *
      * @type {string}
      * @memberof ValidationError
      */
-    'type': string;
+    type: string;
 }

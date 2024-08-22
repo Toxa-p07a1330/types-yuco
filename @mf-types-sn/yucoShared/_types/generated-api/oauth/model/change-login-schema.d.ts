@@ -20,23 +20,23 @@ export interface ChangeLoginSchema {
      * @type {string}
      * @memberof ChangeLoginSchema
      */
-    'code'?: string;
+    code?: string;
     /**
      *
      * @type {string}
      * @memberof ChangeLoginSchema
      */
-    'new_login'?: string;
+    new_login?: string;
     /**
      *
      * @type {string}
      * @memberof ChangeLoginSchema
      */
-    'code_new_device'?: string;
+    code_new_device?: string;
     /**
      *
      * @type {boolean}
      * @memberof ChangeLoginSchema
      */
-    'is_agreed'?: boolean;
+    is_agreed?: boolean;
 }

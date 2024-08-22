@@ -20,5 +20,5 @@ export interface UserSecretKeyUpdateSchema {
      * @type {object}
      * @memberof UserSecretKeyUpdateSchema
      */
-    'keys': object;
+    keys: object;
 }

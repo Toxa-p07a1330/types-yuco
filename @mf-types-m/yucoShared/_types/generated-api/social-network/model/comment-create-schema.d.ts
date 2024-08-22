@@ -20,11 +20,11 @@ export interface CommentCreateSchema {
      * @type {string}
      * @memberof CommentCreateSchema
      */
-    'text': string;
+    text: string;
     /**
      *
      * @type {number}
      * @memberof CommentCreateSchema
      */
-    'parent_comment_id'?: number;
+    parent_comment_id?: number;
 }

@@ -21,11 +21,11 @@ export interface CampaignGoalSchema {
      * @type {string}
      * @memberof CampaignGoalSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {CampaignGoal}
      * @memberof CampaignGoalSchema
      */
-    'value': CampaignGoal;
+    value: CampaignGoal;
 }

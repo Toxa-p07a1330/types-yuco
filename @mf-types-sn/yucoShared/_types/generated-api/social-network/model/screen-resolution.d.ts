@@ -20,11 +20,11 @@ export interface ScreenResolution {
      * @type {number}
      * @memberof ScreenResolution
      */
-    'width': number;
+    width: number;
     /**
      *
      * @type {number}
      * @memberof ScreenResolution
      */
-    'height': number;
+    height: number;
 }

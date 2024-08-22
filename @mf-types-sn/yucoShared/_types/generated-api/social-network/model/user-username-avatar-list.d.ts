@@ -21,5 +21,5 @@ export interface UserUsernameAvatarList {
      * @type {Array<UserUsernameAvatar>}
      * @memberof UserUsernameAvatarList
      */
-    'data': Array<UserUsernameAvatar>;
+    data: Array<UserUsernameAvatar>;
 }

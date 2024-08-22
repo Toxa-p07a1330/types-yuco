@@ -21,5 +21,5 @@ export interface AdvertisementCampaignUpdateStatusSchema {
      * @type {CampaignStatus}
      * @memberof AdvertisementCampaignUpdateStatusSchema
      */
-    'status': CampaignStatus;
+    status: CampaignStatus;
 }

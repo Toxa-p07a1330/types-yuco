@@ -21,13 +21,13 @@ export interface CommentListSchema {
      * @type {Array<CommentSchemaWithAuthor>}
      * @memberof CommentListSchema
      */
-    'data': Array<CommentSchemaWithAuthor>;
+    data: Array<CommentSchemaWithAuthor>;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof CommentListSchema
      */
-    'mentioned_users'?: {
+    mentioned_users?: {
         [key: string]: number;
     };
 }

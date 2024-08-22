@@ -20,5 +20,5 @@ export interface ResponseInfo {
      * @type {string}
      * @memberof ResponseInfo
      */
-    'detail': string;
+    detail: string;
 }

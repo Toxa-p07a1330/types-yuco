@@ -21,5 +21,5 @@ export interface PriceTypeListSchema {
      * @type {Array<PriceTypeSchema>}
      * @memberof PriceTypeListSchema
      */
-    'data': Array<PriceTypeSchema>;
+    data: Array<PriceTypeSchema>;
 }

@@ -19,4 +19,4 @@ export declare const SizeType: {
     readonly Medium: "medium";
     readonly Small: "small";
 };
-export type SizeType = typeof SizeType[keyof typeof SizeType];
+export type SizeType = (typeof SizeType)[keyof typeof SizeType];

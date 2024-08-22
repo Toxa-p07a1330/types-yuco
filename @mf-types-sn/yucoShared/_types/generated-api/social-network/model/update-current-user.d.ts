@@ -21,53 +21,53 @@ export interface UpdateCurrentUser {
      * @type {string}
      * @memberof UpdateCurrentUser
      */
-    'bio'?: string;
+    bio?: string;
     /**
      *
      * @type {string}
      * @memberof UpdateCurrentUser
      */
-    'sex'?: string;
+    sex?: string;
     /**
      *
      * @type {string}
      * @memberof UpdateCurrentUser
      */
-    'name'?: string;
+    name?: string;
     /**
      *
      * @type {string}
      * @memberof UpdateCurrentUser
      */
-    'link'?: string;
+    link?: string;
     /**
      *
      * @type {string}
      * @memberof UpdateCurrentUser
      */
-    'username'?: string;
+    username?: string;
     /**
      *
      * @type {string}
      * @memberof UpdateCurrentUser
      */
-    'birthday'?: string;
+    birthday?: string;
     /**
      *
      * @type {string}
      * @memberof UpdateCurrentUser
      */
-    'profession'?: string;
+    profession?: string;
     /**
      *
      * @type {ContentCreateSchemaWithoutThumbnail}
      * @memberof UpdateCurrentUser
      */
-    'content'?: ContentCreateSchemaWithoutThumbnail;
+    content?: ContentCreateSchemaWithoutThumbnail;
     /**
      *
      * @type {boolean}
      * @memberof UpdateCurrentUser
      */
-    'is_private'?: boolean;
+    is_private?: boolean;
 }

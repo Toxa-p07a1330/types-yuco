@@ -21,11 +21,11 @@ export interface AdvertisingObjectSchema {
      * @type {string}
      * @memberof AdvertisingObjectSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {AdvertisingObject}
      * @memberof AdvertisingObjectSchema
      */
-    'value': AdvertisingObject;
+    value: AdvertisingObject;
 }

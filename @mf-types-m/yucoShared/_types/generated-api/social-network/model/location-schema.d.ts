@@ -21,41 +21,41 @@ export interface LocationSchema {
      * @type {number}
      * @memberof LocationSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof LocationSchema
      */
-    'name'?: string;
+    name?: string;
     /**
      *
      * @type {string}
      * @memberof LocationSchema
      */
-    'address': string;
+    address: string;
     /**
      *
      * @type {number}
      * @memberof LocationSchema
      */
-    'longitude': number;
+    longitude: number;
     /**
      *
      * @type {number}
      * @memberof LocationSchema
      */
-    'latitude': number;
+    latitude: number;
     /**
      *
      * @type {ContentSchemaWithoutThumbnail}
      * @memberof LocationSchema
      */
-    'content'?: ContentSchemaWithoutThumbnail;
+    content?: ContentSchemaWithoutThumbnail;
     /**
      *
      * @type {number}
      * @memberof LocationSchema
      */
-    'score': number;
+    score: number;
 }

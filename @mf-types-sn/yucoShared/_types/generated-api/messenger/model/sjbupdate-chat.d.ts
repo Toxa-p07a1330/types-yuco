@@ -20,11 +20,11 @@ export interface SJBUpdateChat {
      * @type {string}
      * @memberof SJBUpdateChat
      */
-    'title'?: string;
+    title?: string;
     /**
      *
      * @type {string}
      * @memberof SJBUpdateChat
      */
-    'icon_hashname'?: string;
+    icon_hashname?: string;
 }

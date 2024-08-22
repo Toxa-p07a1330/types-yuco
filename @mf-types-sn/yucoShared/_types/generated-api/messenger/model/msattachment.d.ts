@@ -21,29 +21,29 @@ export interface MSAttachment {
      * @type {string}
      * @memberof MSAttachment
      */
-    'hashname': string;
+    hashname: string;
     /**
      *
      * @type {string}
      * @memberof MSAttachment
      */
-    'thumbnail_hashname'?: string;
+    thumbnail_hashname?: string;
     /**
      *
      * @type {FileTypeChoices}
      * @memberof MSAttachment
      */
-    'object_type': FileTypeChoices;
+    object_type: FileTypeChoices;
     /**
      *
      * @type {string}
      * @memberof MSAttachment
      */
-    'file_name': string;
+    file_name: string;
     /**
      *
      * @type {number}
      * @memberof MSAttachment
      */
-    'size': number;
+    size: number;
 }

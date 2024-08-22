@@ -20,17 +20,17 @@ export interface RecoveryPasswordSchema {
      * @type {string}
      * @memberof RecoveryPasswordSchema
      */
-    'login': string;
+    login: string;
     /**
      *
      * @type {string}
      * @memberof RecoveryPasswordSchema
      */
-    'code'?: string;
+    code?: string;
     /**
      *
      * @type {string}
      * @memberof RecoveryPasswordSchema
      */
-    'new_password'?: string;
+    new_password?: string;
 }

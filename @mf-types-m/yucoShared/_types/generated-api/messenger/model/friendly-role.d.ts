@@ -19,4 +19,4 @@ export declare const FriendlyRole: {
     readonly Admin: "admin";
     readonly Owner: "owner";
 };
-export type FriendlyRole = typeof FriendlyRole[keyof typeof FriendlyRole];
+export type FriendlyRole = (typeof FriendlyRole)[keyof typeof FriendlyRole];

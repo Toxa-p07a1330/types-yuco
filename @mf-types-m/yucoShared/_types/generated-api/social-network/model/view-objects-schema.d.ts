@@ -21,5 +21,5 @@ export interface ViewObjectsSchema {
      * @type {Array<ViewObject>}
      * @memberof ViewObjectsSchema
      */
-    'objects': Array<ViewObject>;
+    objects: Array<ViewObject>;
 }

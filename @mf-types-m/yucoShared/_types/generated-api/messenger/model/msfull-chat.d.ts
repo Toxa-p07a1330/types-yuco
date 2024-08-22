@@ -24,83 +24,83 @@ export interface MSFullChat {
      * @type {SchemasModelsChatSubSchemaMutePeriod}
      * @memberof MSFullChat
      */
-    'mute'?: SchemasModelsChatSubSchemaMutePeriod;
+    mute?: SchemasModelsChatSubSchemaMutePeriod;
     /**
      *
      * @type {number}
      * @memberof MSFullChat
      */
-    'count_unread_messages'?: number;
+    count_unread_messages?: number;
     /**
      *
      * @type {string}
      * @memberof MSFullChat
      */
-    'role': MSFullChatRoleEnum;
+    role: MSFullChatRoleEnum;
     /**
      *
      * @type {Array<MSBulkMessage>}
      * @memberof MSFullChat
      */
-    'pinned_messages'?: Array<MSBulkMessage>;
+    pinned_messages?: Array<MSBulkMessage>;
     /**
      *
      * @type {Array<MSChatDirectory>}
      * @memberof MSFullChat
      */
-    'folders'?: Array<MSChatDirectory>;
+    folders?: Array<MSChatDirectory>;
     /**
      *
      * @type {Array<MSBulkMessage>}
      * @memberof MSFullChat
      */
-    'messages'?: Array<MSBulkMessage>;
+    messages?: Array<MSBulkMessage>;
     /**
      *
      * @type {MSBulkMessage}
      * @memberof MSFullChat
      */
-    'message'?: MSBulkMessage;
+    message?: MSBulkMessage;
     /**
      *
      * @type {string}
      * @memberof MSFullChat
      */
-    'title': string;
+    title: string;
     /**
      *
      * @type {string}
      * @memberof MSFullChat
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {string}
      * @memberof MSFullChat
      */
-    'icon_hashname'?: string;
+    icon_hashname?: string;
     /**
      *
      * @type {string}
      * @memberof MSFullChat
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof MSFullChat
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {Chat}
      * @memberof MSFullChat
      */
-    'type': Chat;
+    type: Chat;
 }
 export declare const MSFullChatRoleEnum: {
     readonly Owner: "owner";
     readonly Member: "member";
     readonly Admin: "admin";
 };
-export type MSFullChatRoleEnum = typeof MSFullChatRoleEnum[keyof typeof MSFullChatRoleEnum];
+export type MSFullChatRoleEnum = (typeof MSFullChatRoleEnum)[keyof typeof MSFullChatRoleEnum];

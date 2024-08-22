@@ -20,5 +20,5 @@ export interface SJBReadURL {
      * @type {string}
      * @memberof SJBReadURL
      */
-    'hash': string;
+    hash: string;
 }

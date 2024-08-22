@@ -21,29 +21,29 @@ export interface MSUser {
      * @type {string}
      * @memberof MSUser
      */
-    'account_uuid': string;
+    account_uuid: string;
     /**
      *
      * @type {number}
      * @memberof MSUser
      */
-    'profile_id'?: number;
+    profile_id?: number;
     /**
      *
      * @type {string}
      * @memberof MSUser
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof MSUser
      */
-    'avatar'?: string;
+    avatar?: string;
     /**
      *
      * @type {Array<MSReadURL>}
      * @memberof MSUser
      */
-    'avatar_read_urls'?: Array<MSReadURL>;
+    avatar_read_urls?: Array<MSReadURL>;
 }

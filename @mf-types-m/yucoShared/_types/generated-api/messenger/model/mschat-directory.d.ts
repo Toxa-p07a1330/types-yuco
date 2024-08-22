@@ -20,11 +20,11 @@ export interface MSChatDirectory {
      * @type {string}
      * @memberof MSChatDirectory
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {boolean}
      * @memberof MSChatDirectory
      */
-    'is_pin': boolean;
+    is_pin: boolean;
 }

@@ -20,5 +20,5 @@ export interface RefreshToken {
      * @type {string}
      * @memberof RefreshToken
      */
-    'refresh_token': string;
+    refresh_token: string;
 }

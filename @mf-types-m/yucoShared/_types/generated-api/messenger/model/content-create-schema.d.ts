@@ -20,17 +20,17 @@ export interface ContentCreateSchema {
      * @type {string}
      * @memberof ContentCreateSchema
      */
-    'hashname': string;
+    hashname: string;
     /**
      * отправить как файл
      * @type {boolean}
      * @memberof ContentCreateSchema
      */
-    'is_file'?: boolean;
+    is_file?: boolean;
     /**
      * id thumbnail файла для video
      * @type {string}
      * @memberof ContentCreateSchema
      */
-    'thumbnail_hashname'?: string;
+    thumbnail_hashname?: string;
 }

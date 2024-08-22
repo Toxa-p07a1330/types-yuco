@@ -21,5 +21,5 @@ export interface FirebaseHotTokenListSchema {
      * @type {Array<FirebaseHotTokenModelSchema>}
      * @memberof FirebaseHotTokenListSchema
      */
-    'data': Array<FirebaseHotTokenModelSchema>;
+    data: Array<FirebaseHotTokenModelSchema>;
 }

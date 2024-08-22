@@ -21,11 +21,11 @@ export interface SubSchemaChatMember {
      * @type {string}
      * @memberof SubSchemaChatMember
      */
-    'account_id': string;
+    account_id: string;
     /**
      *
      * @type {FriendlyRole}
      * @memberof SubSchemaChatMember
      */
-    'role'?: FriendlyRole;
+    role?: FriendlyRole;
 }

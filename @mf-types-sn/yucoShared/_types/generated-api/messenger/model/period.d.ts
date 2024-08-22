@@ -20,11 +20,11 @@ export interface Period {
      * @type {string}
      * @memberof Period
      */
-    'since': string;
+    since: string;
     /**
      *
      * @type {string}
      * @memberof Period
      */
-    'till': string;
+    till: string;
 }

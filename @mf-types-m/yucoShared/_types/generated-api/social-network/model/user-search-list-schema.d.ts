@@ -21,5 +21,5 @@ export interface UserSearchListSchema {
      * @type {Array<UserSearchSchema>}
      * @memberof UserSearchListSchema
      */
-    'data': Array<UserSearchSchema>;
+    data: Array<UserSearchSchema>;
 }

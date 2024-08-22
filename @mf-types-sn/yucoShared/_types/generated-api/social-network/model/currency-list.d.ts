@@ -21,5 +21,5 @@ export interface CurrencyList {
      * @type {Array<Currency>}
      * @memberof CurrencyList
      */
-    'data': Array<Currency>;
+    data: Array<Currency>;
 }

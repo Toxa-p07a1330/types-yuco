@@ -20,17 +20,17 @@ export interface UploadedUrlSchema {
      * @type {string}
      * @memberof UploadedUrlSchema
      */
-    'filename': string;
+    filename: string;
     /**
      *
      * @type {string}
      * @memberof UploadedUrlSchema
      */
-    'hash_name': string;
+    hash_name: string;
     /**
      *
      * @type {string}
      * @memberof UploadedUrlSchema
      */
-    'upload_url': string;
+    upload_url: string;
 }

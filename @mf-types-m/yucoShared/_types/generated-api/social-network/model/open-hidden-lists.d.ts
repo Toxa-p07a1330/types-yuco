@@ -20,11 +20,11 @@ export interface OpenHiddenLists {
      * @type {Array<number>}
      * @memberof OpenHiddenLists
      */
-    'open_list'?: Array<number>;
+    open_list?: Array<number>;
     /**
      * Список ID пользователей от которых нужно скрыть историю
      * @type {Array<number>}
      * @memberof OpenHiddenLists
      */
-    'hidden_list'?: Array<number>;
+    hidden_list?: Array<number>;
 }

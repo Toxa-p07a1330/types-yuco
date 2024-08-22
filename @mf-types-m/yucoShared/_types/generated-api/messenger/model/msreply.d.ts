@@ -22,89 +22,89 @@ export interface MSReply {
      * @type {MSUser}
      * @memberof MSReply
      */
-    'sender'?: MSUser;
+    sender?: MSUser;
     /**
      *
      * @type {Array<MSAttachment>}
      * @memberof MSReply
      */
-    'attachments'?: Array<MSAttachment>;
+    attachments?: Array<MSAttachment>;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {boolean}
      * @memberof MSReply
      */
-    'edited': boolean;
+    edited: boolean;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'cache_id': string;
+    cache_id: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'message'?: string;
+    message?: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'account_uuid': string;
+    account_uuid: string;
     /**
      *
      * @type {number}
      * @memberof MSReply
      */
-    'object_uuid'?: number;
+    object_uuid?: number;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'object_type'?: string;
+    object_type?: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'deleted_at'?: string;
+    deleted_at?: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'chat_uuid': string;
+    chat_uuid: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'fw_source_message'?: string;
+    fw_source_message?: string;
     /**
      *
      * @type {string}
      * @memberof MSReply
      */
-    'fw_source_account_uuid'?: string;
+    fw_source_account_uuid?: string;
 }

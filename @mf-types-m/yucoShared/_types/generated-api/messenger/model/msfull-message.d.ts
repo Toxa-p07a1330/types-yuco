@@ -24,7 +24,7 @@ export interface MSFullMessage {
      * @type {{ [key: string]: Reactions; }}
      * @memberof MSFullMessage
      */
-    'reactions'?: {
+    reactions?: {
         [key: string]: Reactions;
     };
     /**
@@ -32,113 +32,113 @@ export interface MSFullMessage {
      * @type {string}
      * @memberof MSFullMessage
      */
-    'self_reaction'?: string;
+    self_reaction?: string;
     /**
      *
      * @type {boolean}
      * @memberof MSFullMessage
      */
-    'is_read'?: boolean;
+    is_read?: boolean;
     /**
      *
      * @type {MSUser}
      * @memberof MSFullMessage
      */
-    'forward_sender'?: MSUser;
+    forward_sender?: MSUser;
     /**
      *
      * @type {SourceMessage1}
      * @memberof MSFullMessage
      */
-    'source_message'?: SourceMessage1;
+    source_message?: SourceMessage1;
     /**
      *
      * @type {Array<MSAttachment>}
      * @memberof MSFullMessage
      */
-    'attachments'?: Array<MSAttachment>;
+    attachments?: Array<MSAttachment>;
     /**
      *
      * @type {MSUser}
      * @memberof MSFullMessage
      */
-    'sender'?: MSUser;
+    sender?: MSUser;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'uuid': string;
+    uuid: string;
     /**
      *
      * @type {boolean}
      * @memberof MSFullMessage
      */
-    'edited': boolean;
+    edited: boolean;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'cache_id': string;
+    cache_id: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'message'?: string;
+    message?: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'account_uuid': string;
+    account_uuid: string;
     /**
      *
      * @type {number}
      * @memberof MSFullMessage
      */
-    'object_uuid'?: number;
+    object_uuid?: number;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'object_type'?: string;
+    object_type?: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'deleted_at'?: string;
+    deleted_at?: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'chat_uuid': string;
+    chat_uuid: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'fw_source_message'?: string;
+    fw_source_message?: string;
     /**
      *
      * @type {string}
      * @memberof MSFullMessage
      */
-    'fw_source_account_uuid'?: string;
+    fw_source_account_uuid?: string;
 }

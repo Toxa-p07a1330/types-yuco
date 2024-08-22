@@ -21,5 +21,5 @@ export interface HashtagWithFollowingFlagList {
      * @type {Array<HashtagWithFollowingFlag>}
      * @memberof HashtagWithFollowingFlagList
      */
-    'data': Array<HashtagWithFollowingFlag>;
+    data: Array<HashtagWithFollowingFlag>;
 }

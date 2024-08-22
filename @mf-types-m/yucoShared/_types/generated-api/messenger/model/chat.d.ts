@@ -19,4 +19,4 @@ export declare const Chat: {
     readonly GroupOpen: "group_open";
     readonly GroupPrivate: "group_private";
 };
-export type Chat = typeof Chat[keyof typeof Chat];
+export type Chat = (typeof Chat)[keyof typeof Chat];

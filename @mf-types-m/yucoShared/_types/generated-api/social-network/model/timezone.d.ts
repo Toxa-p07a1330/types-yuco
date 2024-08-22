@@ -20,41 +20,41 @@ export interface Timezone {
      * @type {number}
      * @memberof Timezone
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof Timezone
      */
-    'abbr': string;
+    abbr: string;
     /**
      *
      * @type {string}
      * @memberof Timezone
      */
-    'value': string;
+    value: string;
     /**
      *
      * @type {number}
      * @memberof Timezone
      */
-    'offset': number;
+    offset: number;
     /**
      *
      * @type {boolean}
      * @memberof Timezone
      */
-    'isdst': boolean;
+    isdst: boolean;
     /**
      *
      * @type {string}
      * @memberof Timezone
      */
-    'text': string;
+    text: string;
     /**
      *
      * @type {Array<any>}
      * @memberof Timezone
      */
-    'utc': Array<any>;
+    utc: Array<any>;
 }

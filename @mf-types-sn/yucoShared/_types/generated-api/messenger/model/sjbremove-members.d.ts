@@ -20,5 +20,5 @@ export interface SJBRemoveMembers {
      * @type {Set<string>}
      * @memberof SJBRemoveMembers
      */
-    'members': Set<string>;
+    members: Set<string>;
 }

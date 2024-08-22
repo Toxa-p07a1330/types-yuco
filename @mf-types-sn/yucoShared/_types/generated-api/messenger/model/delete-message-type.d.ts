@@ -18,4 +18,4 @@ export declare const DeleteMessageType: {
     readonly Global: "global";
     readonly Local: "local";
 };
-export type DeleteMessageType = typeof DeleteMessageType[keyof typeof DeleteMessageType];
+export type DeleteMessageType = (typeof DeleteMessageType)[keyof typeof DeleteMessageType];

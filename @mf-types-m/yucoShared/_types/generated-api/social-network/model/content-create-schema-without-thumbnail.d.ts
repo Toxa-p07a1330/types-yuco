@@ -20,17 +20,17 @@ export interface ContentCreateSchemaWithoutThumbnail {
      * @type {string}
      * @memberof ContentCreateSchemaWithoutThumbnail
      */
-    'content_type'?: string;
+    content_type?: string;
     /**
      *
      * @type {string}
      * @memberof ContentCreateSchemaWithoutThumbnail
      */
-    'hash_name': string;
+    hash_name: string;
     /**
      * Content settings.
      * @type {object}
      * @memberof ContentCreateSchemaWithoutThumbnail
      */
-    'configuration'?: object;
+    configuration?: object;
 }

@@ -20,5 +20,5 @@ export interface PostIdSchema {
      * @type {number}
      * @memberof PostIdSchema
      */
-    'post_id': number;
+    post_id: number;
 }

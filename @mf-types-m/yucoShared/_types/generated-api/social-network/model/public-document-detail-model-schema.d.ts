@@ -21,23 +21,23 @@ export interface PublicDocumentDetailModelSchema {
      * @type {number}
      * @memberof PublicDocumentDetailModelSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof PublicDocumentDetailModelSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {string}
      * @memberof PublicDocumentDetailModelSchema
      */
-    'readable_name': string;
+    readable_name: string;
     /**
      *
      * @type {ContentModelDetailSchema}
      * @memberof PublicDocumentDetailModelSchema
      */
-    'content': ContentModelDetailSchema;
+    content: ContentModelDetailSchema;
 }

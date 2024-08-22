@@ -21,5 +21,5 @@ export interface ListReactionsSchema {
      * @type {Array<ReactionSchemaWithUser>}
      * @memberof ListReactionsSchema
      */
-    'data': Array<ReactionSchemaWithUser>;
+    data: Array<ReactionSchemaWithUser>;
 }

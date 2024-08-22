@@ -21,5 +21,5 @@ export interface CampaignGoalListSchema {
      * @type {Array<CampaignGoalSchema>}
      * @memberof CampaignGoalListSchema
      */
-    'data': Array<CampaignGoalSchema>;
+    data: Array<CampaignGoalSchema>;
 }

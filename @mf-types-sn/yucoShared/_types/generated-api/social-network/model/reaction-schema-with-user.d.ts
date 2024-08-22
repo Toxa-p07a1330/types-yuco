@@ -21,23 +21,23 @@ export interface ReactionSchemaWithUser {
      * @type {number}
      * @memberof ReactionSchemaWithUser
      */
-    'id': number;
+    id: number;
     /**
      * Specific reaction, which was putted (like | dislike | emoji)
      * @type {string}
      * @memberof ReactionSchemaWithUser
      */
-    'action': string;
+    action: string;
     /**
      *
      * @type {string}
      * @memberof ReactionSchemaWithUser
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {UserAvatarFollowFlag}
      * @memberof ReactionSchemaWithUser
      */
-    'user': UserAvatarFollowFlag;
+    user: UserAvatarFollowFlag;
 }

@@ -21,5 +21,5 @@ export interface AdvertisingObjectListSchema {
      * @type {Array<AdvertisingObjectSchema>}
      * @memberof AdvertisingObjectListSchema
      */
-    'data': Array<AdvertisingObjectSchema>;
+    data: Array<AdvertisingObjectSchema>;
 }

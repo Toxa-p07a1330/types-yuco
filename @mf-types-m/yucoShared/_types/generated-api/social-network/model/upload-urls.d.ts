@@ -21,5 +21,5 @@ export interface UploadUrls {
      * @type {Array<UploadedUrlSchema>}
      * @memberof UploadUrls
      */
-    'data': Array<UploadedUrlSchema>;
+    data: Array<UploadedUrlSchema>;
 }

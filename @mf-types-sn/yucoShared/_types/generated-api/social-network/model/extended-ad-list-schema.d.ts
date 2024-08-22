@@ -21,5 +21,5 @@ export interface ExtendedAdListSchema {
      * @type {Array<AdExtendedDetailSchema>}
      * @memberof ExtendedAdListSchema
      */
-    'data': Array<AdExtendedDetailSchema>;
+    data: Array<AdExtendedDetailSchema>;
 }

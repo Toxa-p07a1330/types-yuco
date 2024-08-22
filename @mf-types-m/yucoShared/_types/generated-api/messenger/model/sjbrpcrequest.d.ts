@@ -20,53 +20,53 @@ export interface SJBRPCRequest {
      * @type {string}
      * @memberof SJBRPCRequest
      */
-    'user': string;
+    user: string;
     /**
      *
      * @type {string}
      * @memberof SJBRPCRequest
      */
-    'client': string;
+    client: string;
     /**
      *
      * @type {string}
      * @memberof SJBRPCRequest
      */
-    'encoding': SJBRPCRequestEncodingEnum;
+    encoding: SJBRPCRequestEncodingEnum;
     /**
      *
      * @type {string}
      * @memberof SJBRPCRequest
      */
-    'protocol': SJBRPCRequestProtocolEnum;
+    protocol: SJBRPCRequestProtocolEnum;
     /**
      *
      * @type {string}
      * @memberof SJBRPCRequest
      */
-    'transport': SJBRPCRequestTransportEnum;
+    transport: SJBRPCRequestTransportEnum;
     /**
      *
      * @type {object}
      * @memberof SJBRPCRequest
      */
-    'data'?: object;
+    data?: object;
     /**
      *
      * @type {string}
      * @memberof SJBRPCRequest
      */
-    'method'?: string;
+    method?: string;
 }
 export declare const SJBRPCRequestEncodingEnum: {
     readonly Json: "json";
 };
-export type SJBRPCRequestEncodingEnum = typeof SJBRPCRequestEncodingEnum[keyof typeof SJBRPCRequestEncodingEnum];
+export type SJBRPCRequestEncodingEnum = (typeof SJBRPCRequestEncodingEnum)[keyof typeof SJBRPCRequestEncodingEnum];
 export declare const SJBRPCRequestProtocolEnum: {
     readonly Json: "json";
 };
-export type SJBRPCRequestProtocolEnum = typeof SJBRPCRequestProtocolEnum[keyof typeof SJBRPCRequestProtocolEnum];
+export type SJBRPCRequestProtocolEnum = (typeof SJBRPCRequestProtocolEnum)[keyof typeof SJBRPCRequestProtocolEnum];
 export declare const SJBRPCRequestTransportEnum: {
     readonly Websocket: "websocket";
 };
-export type SJBRPCRequestTransportEnum = typeof SJBRPCRequestTransportEnum[keyof typeof SJBRPCRequestTransportEnum];
+export type SJBRPCRequestTransportEnum = (typeof SJBRPCRequestTransportEnum)[keyof typeof SJBRPCRequestTransportEnum];

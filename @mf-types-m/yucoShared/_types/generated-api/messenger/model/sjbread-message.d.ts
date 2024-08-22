@@ -20,5 +20,5 @@ export interface SJBReadMessage {
      * @type {Array<string>}
      * @memberof SJBReadMessage
      */
-    'message_ids': Array<string>;
+    message_ids: Array<string>;
 }

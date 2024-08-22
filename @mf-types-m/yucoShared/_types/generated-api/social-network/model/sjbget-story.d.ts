@@ -23,67 +23,67 @@ export interface SJBGetStory {
      * @type {number}
      * @memberof SJBGetStory
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof SJBGetStory
      */
-    'hash_name'?: string;
+    hash_name?: string;
     /**
      *
      * @type {Array<string>}
      * @memberof SJBGetStory
      */
-    'available_sizes'?: Array<string>;
+    available_sizes?: Array<string>;
     /**
      *
      * @type {string}
      * @memberof SJBGetStory
      */
-    'thumbnail_hash_name'?: string;
+    thumbnail_hash_name?: string;
     /**
      *
      * @type {Array<string>}
      * @memberof SJBGetStory
      */
-    'thumbnail_available_sizes'?: Array<string>;
+    thumbnail_available_sizes?: Array<string>;
     /**
      *
      * @type {Array<ReadUrlSchema>}
      * @memberof SJBGetStory
      */
-    'read_urls'?: Array<ReadUrlSchema>;
+    read_urls?: Array<ReadUrlSchema>;
     /**
      *
      * @type {Array<ReadUrlSchema>}
      * @memberof SJBGetStory
      */
-    'thumbnail_read_urls'?: Array<ReadUrlSchema>;
+    thumbnail_read_urls?: Array<ReadUrlSchema>;
     /**
      *
      * @type {string}
      * @memberof SJBGetStory
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {boolean}
      * @memberof SJBGetStory
      */
-    'reply_allowed': boolean;
+    reply_allowed: boolean;
     /**
      *
      * @type {Configuration}
      * @memberof SJBGetStory
      */
-    'configuration'?: Configuration;
+    configuration?: Configuration;
     /**
      * Реакции истории. (доступны только автору)
      * @type {{ [key: string]: number; }}
      * @memberof SJBGetStory
      */
-    'reactions'?: {
+    reactions?: {
         [key: string]: number;
     };
     /**
@@ -91,11 +91,11 @@ export interface SJBGetStory {
      * @type {boolean}
      * @memberof SJBGetStory
      */
-    'viewed'?: boolean;
+    viewed?: boolean;
     /**
      *
      * @type {SubSchemaUser}
      * @memberof SJBGetStory
      */
-    'user'?: SubSchemaUser;
+    user?: SubSchemaUser;
 }

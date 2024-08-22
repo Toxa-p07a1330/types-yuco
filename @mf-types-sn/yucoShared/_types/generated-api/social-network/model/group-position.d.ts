@@ -19,4 +19,4 @@ export declare const GroupPosition: {
     readonly Stories: "in_stories";
     readonly Search: "in_search";
 };
-export type GroupPosition = typeof GroupPosition[keyof typeof GroupPosition];
+export type GroupPosition = (typeof GroupPosition)[keyof typeof GroupPosition];

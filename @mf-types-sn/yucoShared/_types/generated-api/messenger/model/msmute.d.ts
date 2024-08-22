@@ -20,11 +20,11 @@ export interface MSMute {
      * @type {string}
      * @memberof MSMute
      */
-    'since': string;
+    since: string;
     /**
      *
      * @type {string}
      * @memberof MSMute
      */
-    'till'?: string;
+    till?: string;
 }

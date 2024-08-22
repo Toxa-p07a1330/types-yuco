@@ -23,121 +23,121 @@ export interface PostSearchSchema {
      * @type {number}
      * @memberof PostSearchSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof PostSearchSchema
      */
-    'title'?: string | null;
+    title?: string | null;
     /**
      *
      * @type {string}
      * @memberof PostSearchSchema
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof PostSearchSchema
      */
-    'updated_at'?: string | null;
+    updated_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof PostSearchSchema
      */
-    'created_at': string;
+    created_at: string;
     /**
      * Цвет поста
      * @type {string}
      * @memberof PostSearchSchema
      */
-    'tag_color': string;
+    tag_color: string;
     /**
      *
      * @type {number}
      * @memberof PostSearchSchema
      */
-    'height'?: number | null;
+    height?: number | null;
     /**
      *
      * @type {number}
      * @memberof PostSearchSchema
      */
-    'aspect_ratio'?: number | null;
+    aspect_ratio?: number | null;
     /**
      *
      * @type {boolean}
      * @memberof PostSearchSchema
      */
-    'share_to_vk'?: boolean;
+    share_to_vk?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostSearchSchema
      */
-    'likes_visible'?: boolean;
+    likes_visible?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostSearchSchema
      */
-    'share_enable'?: boolean;
+    share_enable?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostSearchSchema
      */
-    'comments_enable'?: boolean;
+    comments_enable?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostSearchSchema
      */
-    'reactions_enable'?: boolean;
+    reactions_enable?: boolean;
     /**
      *
      * @type {any}
      * @memberof PostSearchSchema
      */
-    'configuration'?: any;
+    configuration?: any;
     /**
      *
      * @type {string}
      * @memberof PostSearchSchema
      */
-    'content_type'?: string | null;
+    content_type?: string | null;
     /**
      *
      * @type {number}
      * @memberof PostSearchSchema
      */
-    'progress_status'?: number;
+    progress_status?: number;
     /**
      *
      * @type {UserUsernameAvatar}
      * @memberof PostSearchSchema
      */
-    'author': UserUsernameAvatar;
+    author: UserUsernameAvatar;
     /**
      *
      * @type {LocationModelSchema}
      * @memberof PostSearchSchema
      */
-    'location'?: LocationModelSchema;
+    location?: LocationModelSchema;
     /**
      *
      * @type {Array<ContentTagSchema>}
      * @memberof PostSearchSchema
      */
-    'contents': Array<ContentTagSchema>;
+    contents: Array<ContentTagSchema>;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof PostSearchSchema
      */
-    'reactions'?: {
+    reactions?: {
         [key: string]: number;
     };
     /**
@@ -145,23 +145,23 @@ export interface PostSearchSchema {
      * @type {string}
      * @memberof PostSearchSchema
      */
-    'self_reaction'?: string;
+    self_reaction?: string;
     /**
      *
      * @type {number}
      * @memberof PostSearchSchema
      */
-    'reactions_count'?: number;
+    reactions_count?: number;
     /**
      *
      * @type {boolean}
      * @memberof PostSearchSchema
      */
-    'is_save': boolean;
+    is_save: boolean;
     /**
      *
      * @type {number}
      * @memberof PostSearchSchema
      */
-    'score'?: number;
+    score?: number;
 }

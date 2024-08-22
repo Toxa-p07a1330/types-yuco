@@ -21,23 +21,23 @@ export interface SJBForwardMessages {
      * @type {string}
      * @memberof SJBForwardMessages
      */
-    'chat_uuid': string;
+    chat_uuid: string;
     /**
      *
      * @type {string}
      * @memberof SJBForwardMessages
      */
-    'message'?: string;
+    message?: string;
     /**
      *
      * @type {string}
      * @memberof SJBForwardMessages
      */
-    'cache_id'?: string;
+    cache_id?: string;
     /**
      *
      * @type {Array<SubSchemaForwardMessage>}
      * @memberof SJBForwardMessages
      */
-    'forward_messages': Array<SubSchemaForwardMessage>;
+    forward_messages: Array<SubSchemaForwardMessage>;
 }

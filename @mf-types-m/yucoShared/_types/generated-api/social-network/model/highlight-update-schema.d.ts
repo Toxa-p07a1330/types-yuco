@@ -21,11 +21,11 @@ export interface HighlightUpdateSchema {
      * @type {string}
      * @memberof HighlightUpdateSchema
      */
-    'name'?: string;
+    name?: string;
     /**
      * Обложка хайлайта
      * @type {ContentCreateSchemaWithoutThumbnail}
      * @memberof HighlightUpdateSchema
      */
-    'content'?: ContentCreateSchemaWithoutThumbnail;
+    content?: ContentCreateSchemaWithoutThumbnail;
 }

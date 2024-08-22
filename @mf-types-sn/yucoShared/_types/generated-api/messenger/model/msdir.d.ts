@@ -20,11 +20,11 @@ export interface MSDir {
      * @type {string}
      * @memberof MSDir
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {number}
      * @memberof MSDir
      */
-    'count': number;
+    count: number;
 }

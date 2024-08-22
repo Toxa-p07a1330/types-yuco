@@ -20,5 +20,5 @@ export interface FollowRequestAnswer {
      * @type {boolean}
      * @memberof FollowRequestAnswer
      */
-    'accept': boolean;
+    accept: boolean;
 }

@@ -21,7 +21,7 @@ export interface ContentsModelDetailSchema {
      * @type {{ [key: string]: ContentModelDetailSchema; }}
      * @memberof ContentsModelDetailSchema
      */
-    'contents': {
+    contents: {
         [key: string]: ContentModelDetailSchema;
     };
 }

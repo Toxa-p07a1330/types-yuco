@@ -20,11 +20,11 @@ export interface FirebaseHotTokenModelSchema {
      * @type {string}
      * @memberof FirebaseHotTokenModelSchema
      */
-    'token': string;
+    token: string;
     /**
      * Платформа для которой сгенерирован токен
      * @type {string}
      * @memberof FirebaseHotTokenModelSchema
      */
-    'platform': string;
+    platform: string;
 }

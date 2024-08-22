@@ -21,5 +21,5 @@ export interface MSReadings {
      * @type {Array<MSUser>}
      * @memberof MSReadings
      */
-    'users': Array<MSUser>;
+    users: Array<MSUser>;
 }

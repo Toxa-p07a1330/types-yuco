@@ -20,17 +20,17 @@ export interface HashtagStatisticSchema {
      * @type {number}
      * @memberof HashtagStatisticSchema
      */
-    'posts_count'?: number;
+    posts_count?: number;
     /**
      *
      * @type {number}
      * @memberof HashtagStatisticSchema
      */
-    'likes_count'?: number;
+    likes_count?: number;
     /**
      *
      * @type {number}
      * @memberof HashtagStatisticSchema
      */
-    'followers_count'?: number;
+    followers_count?: number;
 }

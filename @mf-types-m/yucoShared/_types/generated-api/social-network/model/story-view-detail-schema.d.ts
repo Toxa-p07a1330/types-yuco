@@ -21,23 +21,23 @@ export interface StoryViewDetailSchema {
      * @type {number}
      * @memberof StoryViewDetailSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof StoryViewDetailSchema
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {UserAvatarFollowFlag}
      * @memberof StoryViewDetailSchema
      */
-    'user': UserAvatarFollowFlag;
+    user: UserAvatarFollowFlag;
     /**
      *
      * @type {string}
      * @memberof StoryViewDetailSchema
      */
-    'action'?: string;
+    action?: string;
 }

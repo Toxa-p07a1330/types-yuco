@@ -20,5 +20,5 @@ export interface SJBDeleteMessages {
      * @type {Array<string>}
      * @memberof SJBDeleteMessages
      */
-    'message_uuids': Array<string>;
+    message_uuids: Array<string>;
 }

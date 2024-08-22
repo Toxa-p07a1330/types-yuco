@@ -20,5 +20,5 @@ export interface PostUpdateContentSchema {
      * @type {Array<number>}
      * @memberof PostUpdateContentSchema
      */
-    'content_ids': Array<number>;
+    content_ids: Array<number>;
 }

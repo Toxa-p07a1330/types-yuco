@@ -21,47 +21,47 @@ export interface UserInfoSchema {
      * @type {Id}
      * @memberof UserInfoSchema
      */
-    'id': Id;
+    id: Id;
     /**
      *
      * @type {string}
      * @memberof UserInfoSchema
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof UserInfoSchema
      */
-    'email'?: string;
+    email?: string;
     /**
      *
      * @type {string}
      * @memberof UserInfoSchema
      */
-    'phone'?: string;
+    phone?: string;
     /**
      *
      * @type {string}
      * @memberof UserInfoSchema
      */
-    'apple_name'?: string;
+    apple_name?: string;
     /**
      *
      * @type {string}
      * @memberof UserInfoSchema
      */
-    'google_name'?: string;
+    google_name?: string;
     /**
      *
      * @type {string}
      * @memberof UserInfoSchema
      */
-    'google_avatar'?: string;
+    google_avatar?: string;
     /**
      *
      * @type {boolean}
      * @memberof UserInfoSchema
      */
-    'have_password'?: boolean;
+    have_password?: boolean;
 }

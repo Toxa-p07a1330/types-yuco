@@ -22,41 +22,41 @@ export interface AdvertisementCampaignCreateSchema {
      * @type {string}
      * @memberof AdvertisementCampaignCreateSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {AdvertisingObject}
      * @memberof AdvertisementCampaignCreateSchema
      */
-    'advertising_obj': AdvertisingObject;
+    advertising_obj: AdvertisingObject;
     /**
      *
      * @type {CampaignGoal}
      * @memberof AdvertisementCampaignCreateSchema
      */
-    'goal': CampaignGoal;
+    goal: CampaignGoal;
     /**
      *
      * @type {number}
      * @memberof AdvertisementCampaignCreateSchema
      */
-    'budget': number;
+    budget: number;
     /**
      *
      * @type {string}
      * @memberof AdvertisementCampaignCreateSchema
      */
-    'period_start': string;
+    period_start: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementCampaignCreateSchema
      */
-    'period_end': string;
+    period_end: string;
     /**
      * campaign url (website, mobile app, profile, etc)
      * @type {string}
      * @memberof AdvertisementCampaignCreateSchema
      */
-    'link': string;
+    link: string;
 }

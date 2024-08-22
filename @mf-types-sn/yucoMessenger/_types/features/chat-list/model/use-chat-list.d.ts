@@ -14,4 +14,5 @@ export declare const useChatList: () => {
     popoverLayoutOpen: boolean;
     dismissHandler: () => void;
     searchChangeHandler: (value: string) => Promise<void>;
+    searchValue: string;
 };

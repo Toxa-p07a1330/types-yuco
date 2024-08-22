@@ -21,5 +21,5 @@ export interface TimezoneList {
      * @type {Array<Timezone>}
      * @memberof TimezoneList
      */
-    'data': Array<Timezone>;
+    data: Array<Timezone>;
 }

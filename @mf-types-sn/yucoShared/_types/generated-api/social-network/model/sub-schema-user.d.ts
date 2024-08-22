@@ -21,35 +21,35 @@ export interface SubSchemaUser {
      * @type {number}
      * @memberof SubSchemaUser
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof SubSchemaUser
      */
-    'account_id': string;
+    account_id: string;
     /**
      *
      * @type {string}
      * @memberof SubSchemaUser
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof SubSchemaUser
      */
-    'profile_photo'?: string;
+    profile_photo?: string;
     /**
      *
      * @type {Array<string>}
      * @memberof SubSchemaUser
      */
-    'available_sizes'?: Array<string>;
+    available_sizes?: Array<string>;
     /**
      *
      * @type {Array<ReadUrlSchema>}
      * @memberof SubSchemaUser
      */
-    'read_urls'?: Array<ReadUrlSchema>;
+    read_urls?: Array<ReadUrlSchema>;
 }

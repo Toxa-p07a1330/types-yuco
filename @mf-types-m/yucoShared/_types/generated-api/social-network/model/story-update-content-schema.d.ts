@@ -20,5 +20,5 @@ export interface StoryUpdateContentSchema {
      * @type {number}
      * @memberof StoryUpdateContentSchema
      */
-    'content_id': number;
+    content_id: number;
 }

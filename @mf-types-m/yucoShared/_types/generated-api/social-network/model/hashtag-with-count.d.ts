@@ -21,23 +21,23 @@ export interface HashtagWithCount {
      * @type {number}
      * @memberof HashtagWithCount
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof HashtagWithCount
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {boolean}
      * @memberof HashtagWithCount
      */
-    'is_follow': boolean;
+    is_follow: boolean;
     /**
      *
      * @type {HashtagStatisticSchema}
      * @memberof HashtagWithCount
      */
-    'statistic'?: HashtagStatisticSchema;
+    statistic?: HashtagStatisticSchema;
 }

@@ -24,29 +24,29 @@ export interface StoryCreateSchema {
      * @type {ContentCreateSchema}
      * @memberof StoryCreateSchema
      */
-    'content': ContentCreateSchema;
+    content: ContentCreateSchema;
     /**
      *
      * @type {ContentOverlaySchema}
      * @memberof StoryCreateSchema
      */
-    'content_overlay'?: ContentOverlaySchema;
+    content_overlay?: ContentOverlaySchema;
     /**
      * Настройки
      * @type {object}
      * @memberof StoryCreateSchema
      */
-    'configuration'?: object;
+    configuration?: object;
     /**
      * Кто может отвечать на сторис
      * @type {ReplyPermissionChoices}
      * @memberof StoryCreateSchema
      */
-    'reply_permission'?: ReplyPermissionChoices;
+    reply_permission?: ReplyPermissionChoices;
     /**
      *
      * @type {OpenHiddenLists}
      * @memberof StoryCreateSchema
      */
-    'hide_lists'?: OpenHiddenLists;
+    hide_lists?: OpenHiddenLists;
 }

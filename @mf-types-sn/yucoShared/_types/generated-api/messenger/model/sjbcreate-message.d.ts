@@ -22,29 +22,29 @@ export interface SJBCreateMessage {
      * @type {string}
      * @memberof SJBCreateMessage
      */
-    'chat_id': string;
+    chat_id: string;
     /**
      *
      * @type {string}
      * @memberof SJBCreateMessage
      */
-    'cache_id': string;
+    cache_id: string;
     /**
      *
      * @type {string}
      * @memberof SJBCreateMessage
      */
-    'message'?: string;
+    message?: string;
     /**
      *
      * @type {Array<ContentCreateSchema>}
      * @memberof SJBCreateMessage
      */
-    'attachments'?: Array<ContentCreateSchema>;
+    attachments?: Array<ContentCreateSchema>;
     /**
      *
      * @type {SubSchemaMessageObject}
      * @memberof SJBCreateMessage
      */
-    'object'?: SubSchemaMessageObject;
+    object?: SubSchemaMessageObject;
 }

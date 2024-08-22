@@ -20,11 +20,11 @@ export interface TopicActSchema {
      * @type {string}
      * @memberof TopicActSchema
      */
-    'account_uuid': string;
+    account_uuid: string;
     /**
      *
      * @type {string}
      * @memberof TopicActSchema
      */
-    'topic': string;
+    topic: string;
 }

@@ -21,181 +21,181 @@ export interface UserDetailWithFlags {
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'updated_at'?: string | null;
+    updated_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {number}
      * @memberof UserDetailWithFlags
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'name'?: string | null;
+    name?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'birthday'?: string | null;
+    birthday?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'sex'?: string | null;
+    sex?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'bio'?: string | null;
+    bio?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'link'?: string | null;
+    link?: string | null;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'user_type': string;
+    user_type: string;
     /**
      *
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'is_active'?: boolean;
+    is_active?: boolean;
     /**
      *
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'profession'?: string | null;
+    profession?: string | null;
     /**
      * Account if private (for followers only)
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'is_private'?: boolean;
+    is_private?: boolean;
     /**
      * Uuid of user in auth service.
      * @type {string}
      * @memberof UserDetailWithFlags
      */
-    'account_id'?: string | null;
+    account_id?: string | null;
     /**
      * Verified badge
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'verified'?: boolean;
+    verified?: boolean;
     /**
      *
      * @type {number}
      * @memberof UserDetailWithFlags
      */
-    'posts_count'?: number;
+    posts_count?: number;
     /**
      *
      * @type {number}
      * @memberof UserDetailWithFlags
      */
-    'likes_count'?: number;
+    likes_count?: number;
     /**
      *
      * @type {number}
      * @memberof UserDetailWithFlags
      */
-    'count_followers'?: number;
+    count_followers?: number;
     /**
      *
      * @type {number}
      * @memberof UserDetailWithFlags
      */
-    'count_following'?: number;
+    count_following?: number;
     /**
      *
      * @type {number}
      * @memberof UserDetailWithFlags
      */
-    'count_friends'?: number;
+    count_friends?: number;
     /**
      *
      * @type {number}
      * @memberof UserDetailWithFlags
      */
-    'following_hashtags_count'?: number;
+    following_hashtags_count?: number;
     /**
      *
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'is_follow': boolean;
+    is_follow: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'is_follower': boolean;
+    is_follower: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'is_follow_request_sent': boolean;
+    is_follow_request_sent: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'blocked': boolean;
+    blocked: boolean;
     /**
      *
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'in_blacklist': boolean;
+    in_blacklist: boolean;
     /**
      *
      * @type {ContentModelDetailWithoutThumbnail}
      * @memberof UserDetailWithFlags
      */
-    'profile_photo'?: ContentModelDetailWithoutThumbnail;
+    profile_photo?: ContentModelDetailWithoutThumbnail;
     /**
      * All actual stories was viewed.
      * @type {boolean}
      * @memberof UserDetailWithFlags
      */
-    'actual_stories_viewed'?: boolean;
+    actual_stories_viewed?: boolean;
     /**
      *
      * @type {{ [key: string]: number; }}
      * @memberof UserDetailWithFlags
      */
-    'mentioned_users_in_bio'?: {
+    mentioned_users_in_bio?: {
         [key: string]: number;
     };
 }

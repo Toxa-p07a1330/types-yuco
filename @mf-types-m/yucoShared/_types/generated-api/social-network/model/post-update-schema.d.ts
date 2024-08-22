@@ -23,71 +23,71 @@ export interface PostUpdateSchema {
      * @type {string}
      * @memberof PostUpdateSchema
      */
-    'title'?: string;
+    title?: string;
     /**
      *
      * @type {string}
      * @memberof PostUpdateSchema
      */
-    'tag_color'?: string;
+    tag_color?: string;
     /**
      *
      * @type {boolean}
      * @memberof PostUpdateSchema
      */
-    'likes_visible'?: boolean;
+    likes_visible?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostUpdateSchema
      */
-    'full_size_mode'?: boolean;
+    full_size_mode?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof PostUpdateSchema
      */
-    'share_enable'?: boolean;
+    share_enable?: boolean;
     /**
      * Локация
      * @type {LocationSearchSchema}
      * @memberof PostUpdateSchema
      */
-    'location'?: LocationSearchSchema;
+    location?: LocationSearchSchema;
     /**
      * Post contents in the right order.
      * @type {Array<ContentCreateSchema>}
      * @memberof PostUpdateSchema
      */
-    'contents'?: Array<ContentCreateSchema>;
+    contents?: Array<ContentCreateSchema>;
     /**
      * ID отмеченных пользователей
      * @type {Array<AppsPostsShemasPostTagUserSchema>}
      * @memberof PostUpdateSchema
      */
-    'tag_people'?: Array<AppsPostsShemasPostTagUserSchema>;
+    tag_people?: Array<AppsPostsShemasPostTagUserSchema>;
     /**
      *
      * @type {number}
      * @memberof PostUpdateSchema
      */
-    'aspect_ratio'?: number;
+    aspect_ratio?: number;
     /**
      *
      * @type {number}
      * @memberof PostUpdateSchema
      */
-    'height'?: number;
+    height?: number;
     /**
      *
      * @type {boolean}
      * @memberof PostUpdateSchema
      */
-    'is_draft'?: boolean;
+    is_draft?: boolean;
     /**
      * Draft settings.
      * @type {object}
      * @memberof PostUpdateSchema
      */
-    'configuration'?: object;
+    configuration?: object;
 }

@@ -20,23 +20,23 @@ export interface SearchCountryModelSchema {
      * @type {number}
      * @memberof SearchCountryModelSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof SearchCountryModelSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {number}
      * @memberof SearchCountryModelSchema
      */
-    'ad_min_price'?: number;
+    ad_min_price?: number;
     /**
      *
      * @type {number}
      * @memberof SearchCountryModelSchema
      */
-    'score'?: number;
+    score?: number;
 }

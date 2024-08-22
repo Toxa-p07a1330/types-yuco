@@ -20,5 +20,5 @@ export interface SJBAddMembers {
      * @type {Set<string>}
      * @memberof SJBAddMembers
      */
-    'members': Set<string>;
+    members: Set<string>;
 }

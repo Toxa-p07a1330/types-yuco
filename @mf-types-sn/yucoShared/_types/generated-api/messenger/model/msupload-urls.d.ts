@@ -21,5 +21,5 @@ export interface MSUploadUrls {
      * @type {Array<MSUploadUrl>}
      * @memberof MSUploadUrls
      */
-    'data': Array<MSUploadUrl>;
+    data: Array<MSUploadUrl>;
 }

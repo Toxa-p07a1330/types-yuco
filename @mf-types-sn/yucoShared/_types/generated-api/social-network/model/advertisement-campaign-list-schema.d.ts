@@ -21,5 +21,5 @@ export interface AdvertisementCampaignListSchema {
      * @type {Array<AdvertisementCampaignDetailSchema>}
      * @memberof AdvertisementCampaignListSchema
      */
-    'data': Array<AdvertisementCampaignDetailSchema>;
+    data: Array<AdvertisementCampaignDetailSchema>;
 }

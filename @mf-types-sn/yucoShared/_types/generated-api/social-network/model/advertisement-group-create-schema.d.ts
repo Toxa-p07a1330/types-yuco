@@ -22,53 +22,53 @@ export interface AdvertisementGroupCreateSchema {
      * @type {number}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'campaign_id': number;
+    campaign_id: number;
     /**
      *
      * @type {number}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'audience_id': number;
+    audience_id: number;
     /**
      *
      * @type {string}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {GroupPosition}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'position': GroupPosition;
+    position: GroupPosition;
     /**
      *
      * @type {PriceType}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'price_type': PriceType;
+    price_type: PriceType;
     /**
      *
      * @type {number}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'price': number;
+    price: number;
     /**
      *
      * @type {number}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'budget_constraint': number;
+    budget_constraint: number;
     /**
      *
      * @type {string}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'run_time_start': string;
+    run_time_start: string;
     /**
      *
      * @type {string}
      * @memberof AdvertisementGroupCreateSchema
      */
-    'run_time_end': string;
+    run_time_end: string;
 }

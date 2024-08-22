@@ -20,23 +20,23 @@ export interface HashtagSearchSchema {
      * @type {number}
      * @memberof HashtagSearchSchema
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof HashtagSearchSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {number}
      * @memberof HashtagSearchSchema
      */
-    'followers_count': number;
+    followers_count: number;
     /**
      *
      * @type {number}
      * @memberof HashtagSearchSchema
      */
-    'score': number;
+    score: number;
 }

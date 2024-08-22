@@ -21,11 +21,11 @@ export interface GroupPositionSchema {
      * @type {string}
      * @memberof GroupPositionSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {GroupPosition}
      * @memberof GroupPositionSchema
      */
-    'value': GroupPosition;
+    value: GroupPosition;
 }

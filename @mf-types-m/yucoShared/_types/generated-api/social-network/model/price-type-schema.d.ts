@@ -21,11 +21,11 @@ export interface PriceTypeSchema {
      * @type {string}
      * @memberof PriceTypeSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {PriceType}
      * @memberof PriceTypeSchema
      */
-    'value': PriceType;
+    value: PriceType;
 }

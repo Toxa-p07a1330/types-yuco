@@ -20,5 +20,5 @@ export interface CommentUpdateSchema {
      * @type {string}
      * @memberof CommentUpdateSchema
      */
-    'text': string;
+    text: string;
 }

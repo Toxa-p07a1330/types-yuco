@@ -20,11 +20,11 @@ export interface ViewObject {
      * @type {number}
      * @memberof ViewObject
      */
-    'author_id': number;
+    author_id: number;
     /**
      *
      * @type {number}
      * @memberof ViewObject
      */
-    'object_id'?: number;
+    object_id?: number;
 }

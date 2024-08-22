@@ -21,41 +21,41 @@ export interface UserStoryFeed {
      * @type {number}
      * @memberof UserStoryFeed
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {string}
      * @memberof UserStoryFeed
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof UserStoryFeed
      */
-    'profile_photo'?: string;
+    profile_photo?: string;
     /**
      * All actual stories was viewed.
      * @type {boolean}
      * @memberof UserStoryFeed
      */
-    'viewed'?: boolean;
+    viewed?: boolean;
     /**
      *
      * @type {string}
      * @memberof UserStoryFeed
      */
-    'last_story_created_at'?: string;
+    last_story_created_at?: string;
     /**
      *
      * @type {Array<string>}
      * @memberof UserStoryFeed
      */
-    'available_sizes'?: Array<string>;
+    available_sizes?: Array<string>;
     /**
      *
      * @type {Array<ReadUrlSchema>}
      * @memberof UserStoryFeed
      */
-    'read_urls'?: Array<ReadUrlSchema>;
+    read_urls?: Array<ReadUrlSchema>;
 }

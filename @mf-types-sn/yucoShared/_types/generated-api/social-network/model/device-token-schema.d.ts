@@ -21,11 +21,11 @@ export interface DeviceTokenSchema {
      * @type {string}
      * @memberof DeviceTokenSchema
      */
-    'token': string;
+    token: string;
     /**
      * Платформа
      * @type {Platform}
      * @memberof DeviceTokenSchema
      */
-    'platform': Platform;
+    platform: Platform;
 }

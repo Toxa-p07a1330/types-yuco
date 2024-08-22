@@ -21,65 +21,65 @@ export interface CommentSchemaWithAuthor {
      * @type {number}
      * @memberof CommentSchemaWithAuthor
      */
-    'id': number;
+    id: number;
     /**
      *
      * @type {number}
      * @memberof CommentSchemaWithAuthor
      */
-    'likes_count'?: number;
+    likes_count?: number;
     /**
      *
      * @type {boolean}
      * @memberof CommentSchemaWithAuthor
      */
-    'is_active'?: boolean;
+    is_active?: boolean;
     /**
      *
      * @type {boolean}
      * @memberof CommentSchemaWithAuthor
      */
-    'no_reply'?: boolean;
+    no_reply?: boolean;
     /**
      *
      * @type {string}
      * @memberof CommentSchemaWithAuthor
      */
-    'deleted_at'?: string | null;
+    deleted_at?: string | null;
     /**
      *
      * @type {string}
      * @memberof CommentSchemaWithAuthor
      */
-    'updated_at': string;
+    updated_at: string;
     /**
      *
      * @type {string}
      * @memberof CommentSchemaWithAuthor
      */
-    'created_at': string;
+    created_at: string;
     /**
      *
      * @type {string}
      * @memberof CommentSchemaWithAuthor
      */
-    'text'?: string | null;
+    text?: string | null;
     /**
      *
      * @type {UserUsernameAvatar}
      * @memberof CommentSchemaWithAuthor
      */
-    'author': UserUsernameAvatar;
+    author: UserUsernameAvatar;
     /**
      *
      * @type {boolean}
      * @memberof CommentSchemaWithAuthor
      */
-    'liked'?: boolean;
+    liked?: boolean;
     /**
      *
      * @type {object}
      * @memberof CommentSchemaWithAuthor
      */
-    'reactions'?: object;
+    reactions?: object;
 }

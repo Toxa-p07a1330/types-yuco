@@ -21,17 +21,17 @@ export interface CreateReactionSchema {
      * @type {number}
      * @memberof CreateReactionSchema
      */
-    'object_id': number;
+    object_id: number;
     /**
      *
      * @type {ObjectTypeChoices}
      * @memberof CreateReactionSchema
      */
-    'object_type': ObjectTypeChoices;
+    object_type: ObjectTypeChoices;
     /**
      * like | dislike | special emoji
      * @type {string}
      * @memberof CreateReactionSchema
      */
-    'action': string;
+    action: string;
 }

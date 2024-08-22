@@ -20,41 +20,41 @@ export interface UserModelSchema {
      * @type {string}
      * @memberof UserModelSchema
      */
-    'username': string;
+    username: string;
     /**
      *
      * @type {string}
      * @memberof UserModelSchema
      */
-    'email'?: string;
+    email?: string;
     /**
      *
      * @type {string}
      * @memberof UserModelSchema
      */
-    'phone'?: string;
+    phone?: string;
     /**
      *
      * @type {string}
      * @memberof UserModelSchema
      */
-    'avatar'?: string;
+    avatar?: string;
     /**
      *
      * @type {string}
      * @memberof UserModelSchema
      */
-    'apple_name'?: string;
+    apple_name?: string;
     /**
      *
      * @type {string}
      * @memberof UserModelSchema
      */
-    'google_name'?: string;
+    google_name?: string;
     /**
      *
      * @type {string}
      * @memberof UserModelSchema
      */
-    'google_avatar'?: string;
+    google_avatar?: string;
 }

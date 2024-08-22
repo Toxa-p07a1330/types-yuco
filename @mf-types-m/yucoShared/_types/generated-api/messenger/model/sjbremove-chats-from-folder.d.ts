@@ -20,11 +20,11 @@ export interface SJBRemoveChatsFromFolder {
      * @type {Set<string>}
      * @memberof SJBRemoveChatsFromFolder
      */
-    'chat_ids': Set<string>;
+    chat_ids: Set<string>;
     /**
      *
      * @type {string}
      * @memberof SJBRemoveChatsFromFolder
      */
-    'directory_name': string;
+    directory_name: string;
 }

@@ -21,11 +21,11 @@ export interface HighlightCreateSchema {
      * @type {string}
      * @memberof HighlightCreateSchema
      */
-    'name': string;
+    name: string;
     /**
      *
      * @type {ContentCreateSchemaWithoutThumbnail}
      * @memberof HighlightCreateSchema
      */
-    'content': ContentCreateSchemaWithoutThumbnail;
+    content: ContentCreateSchemaWithoutThumbnail;
 }

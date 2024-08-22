@@ -21,41 +21,41 @@ export interface MSAttachmentWithUrls {
      * @type {string}
      * @memberof MSAttachmentWithUrls
      */
-    'hashname': string;
+    hashname: string;
     /**
      *
      * @type {string}
      * @memberof MSAttachmentWithUrls
      */
-    'thumbnail_hashname'?: string;
+    thumbnail_hashname?: string;
     /**
      *
      * @type {FileTypeChoices}
      * @memberof MSAttachmentWithUrls
      */
-    'object_type': FileTypeChoices;
+    object_type: FileTypeChoices;
     /**
      *
      * @type {string}
      * @memberof MSAttachmentWithUrls
      */
-    'file_name': string;
+    file_name: string;
     /**
      *
      * @type {number}
      * @memberof MSAttachmentWithUrls
      */
-    'size': number;
+    size: number;
     /**
      *
      * @type {string}
      * @memberof MSAttachmentWithUrls
      */
-    'hashname_url'?: string;
+    hashname_url?: string;
     /**
      *
      * @type {string}
      * @memberof MSAttachmentWithUrls
      */
-    'thumbnail_url'?: string;
+    thumbnail_url?: string;
 }

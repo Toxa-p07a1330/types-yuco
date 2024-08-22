@@ -20,5 +20,5 @@ export interface SJBMessageSync {
      * @type {string}
      * @memberof SJBMessageSync
      */
-    'offset': string;
+    offset: string;
 }

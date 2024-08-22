@@ -21,13 +21,13 @@ export interface MSMessageList {
      * @type {Array<MSBulkMessage>}
      * @memberof MSMessageList
      */
-    'messages': Array<MSBulkMessage>;
+    messages: Array<MSBulkMessage>;
     /**
      *
      * @type {{ [key: string]: object; }}
      * @memberof MSMessageList
      */
-    'accounts': {
+    accounts: {
         [key: string]: object;
     };
 }

@@ -21,7 +21,7 @@ export interface UsersInfoSchema {
      * @type {{ [key: string]: UserModelSchema; }}
      * @memberof UsersInfoSchema
      */
-    'users': {
+    users: {
         [key: string]: UserModelSchema;
     };
 }

@@ -20,17 +20,17 @@ export interface UserUpdateSchema {
      * @type {string}
      * @memberof UserUpdateSchema
      */
-    'id': string;
+    id: string;
     /**
      *
      * @type {string}
      * @memberof UserUpdateSchema
      */
-    'avatar'?: string;
+    avatar?: string;
     /**
      *
      * @type {string}
      * @memberof UserUpdateSchema
      */
-    'username'?: string;
+    username?: string;
 }

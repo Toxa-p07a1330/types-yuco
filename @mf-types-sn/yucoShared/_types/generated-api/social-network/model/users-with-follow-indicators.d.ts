@@ -21,5 +21,5 @@ export interface UsersWithFollowIndicators {
      * @type {Array<UserWithFollowIndicators>}
      * @memberof UsersWithFollowIndicators
      */
-    'data': Array<UserWithFollowIndicators>;
+    data: Array<UserWithFollowIndicators>;
 }

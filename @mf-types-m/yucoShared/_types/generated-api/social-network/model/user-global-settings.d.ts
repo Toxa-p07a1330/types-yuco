@@ -20,47 +20,47 @@ export interface UserGlobalSettings {
      * @type {number}
      * @memberof UserGlobalSettings
      */
-    'id': number;
+    id: number;
     /**
      * Глобальное разрешение на репост актуальных сторис
      * @type {string}
      * @memberof UserGlobalSettings
      */
-    'reply_story_permission'?: string;
+    reply_story_permission?: string;
     /**
      * Auto approve all tags in posts.
      * @type {boolean}
      * @memberof UserGlobalSettings
      */
-    'tags_auto_approve'?: boolean;
+    tags_auto_approve?: boolean;
     /**
      * Push notifications enabled.
      * @type {boolean}
      * @memberof UserGlobalSettings
      */
-    'push_notifications_enable'?: boolean;
+    push_notifications_enable?: boolean;
     /**
      * Visibility of likes
      * @type {boolean}
      * @memberof UserGlobalSettings
      */
-    'likes_visible'?: boolean;
+    likes_visible?: boolean;
     /**
      * Share switch
      * @type {boolean}
      * @memberof UserGlobalSettings
      */
-    'share_enabled'?: boolean;
+    share_enabled?: boolean;
     /**
      * Comments switch
      * @type {boolean}
      * @memberof UserGlobalSettings
      */
-    'comments_enabled'?: boolean;
+    comments_enabled?: boolean;
     /**
      * Reactions switch
      * @type {boolean}
      * @memberof UserGlobalSettings
      */
-    'reactions_enabled'?: boolean;
+    reactions_enabled?: boolean;
 }
