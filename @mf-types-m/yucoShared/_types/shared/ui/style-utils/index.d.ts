@@ -1,0 +1,14 @@
+import { IBoldnessVariant } from "./boldness";
+import { IColorVariant } from "./color";
+import { IFlexPositionStyles } from "./flex";
+import { IMarginVariant } from "./margin";
+import { IOpacityVariant } from "./opacity";
+import { ISizeVariant } from "./size";
+export * from "./opacity";
+export * from "./size";
+export * from "./boldness";
+export * from "./margin";
+export * from "./color";
+export * from "./storybook-utils";
+export * from "./flex";
+export type TStyleUtils = IOpacityVariant & IMarginVariant & IBoldnessVariant & IColorVariant & ISizeVariant & IFlexPositionStyles;

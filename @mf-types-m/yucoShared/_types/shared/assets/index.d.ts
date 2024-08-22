@@ -1,0 +1,10 @@
+import BackButtonIcon from "./img/back-button.svg";
+import defaultAvatarImage from "./img/empty-avatar.svg";
+import SearchIcon from "./img/search.svg";
+import PauseIcon from "./img/pause-video.svg";
+import PlayIcon from "./img/play-video.svg";
+import MuteIcon from "./img/mute.svg";
+import VolumeIcon from "./img/volume.svg";
+import LoaderIcon from "./img/loader.svg";
+import TakePhoto from "./img/take-photo.svg";
+export { BackButtonIcon, defaultAvatarImage, SearchIcon, PauseIcon, PlayIcon, MuteIcon, VolumeIcon, LoaderIcon, TakePhoto };

@@ -1,0 +1,10 @@
+import { RootState } from 'shared/lib/store';
+export declare const selectMessages: (state: RootState) => import("..").TMessage[];
+export declare const selectChatEntity: (state: RootState) => import("..").TChatItem | undefined;
+export declare const selectActiveMessage: (state: RootState) => import("..").TMessage | undefined;
+export declare const selectSelectedMessages: (state: RootState) => import("..").TMessage[];
+export declare const selectMessagesToForward: (state: RootState) => import("..").TMessage[];
+export declare const selectMembers: (state: RootState) => import("../../../../shared/types").TUserSelectionTag[];
+export declare const selectCurrentPopover: (state: RootState) => import("..").TChatPopover;
+export declare const selectChatMediaAttachments: (state: RootState) => import("..").TChatDetailsAttachment[];
+export declare const selectChatFilesAttachments: (state: RootState) => import("..").TChatDetailsAttachment[];

@@ -1,0 +1,9 @@
+export declare const StyledAttachmentsMenu: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledMenuWrapper: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledHeaderWrapper: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledTitle: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledAttachmentsHeader: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledAttachmentsHeaderWrapper: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledCount: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledCloseIcon: import("styled-components").StyledComponent<"img", any, {}, never>;
+export declare const StyledTitleWrapper: import("styled-components").StyledComponent<"div", any, {}, never>;
