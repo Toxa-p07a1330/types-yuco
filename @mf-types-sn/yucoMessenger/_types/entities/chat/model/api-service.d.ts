@@ -1,5 +1,5 @@
-import { IChatAttachmentsReq } from './types';
 import { AxiosResponse } from 'axios';
+import { IChatAttachmentsReq } from './types';
 export declare const getMessagesReq: (chat_id: string, limit?: number, ws_start_date?: string, ws_end_date?: string) => Promise<AxiosResponse<import("../../../../@mf-types/yucoShared/_types/generated-api/messenger").MSMessageList, any>>;
 export declare const sendMessageReq: ({ uuid, message, cache_id, attachments, object }: {
     uuid: string;
