@@ -349,6 +349,7 @@ export type ChatListType = {
     newFolderName: string;
     folderDeleteProcessed: string;
     isEditMode: boolean;
+    interactiveFolderName: string;
 };
 export declare const CHAT_ACTION_TYPE: {
     SEND_MESSAGE: string;

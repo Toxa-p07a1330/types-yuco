@@ -5,7 +5,7 @@ export declare const useConfigNewFolder: () => {
     getChatsHandler: () => void;
     scrollHeight: number;
     setButtonRefHandler: (node: HTMLDivElement) => void;
-    selectedChats: import("../../../shared/types").TChatSelectionItem[];
+    selectedChats: import("shared/types").TChatSelectionItem[];
     isLoading: boolean;
     onIonChange: (e: any) => void;
     buttonColor: string;

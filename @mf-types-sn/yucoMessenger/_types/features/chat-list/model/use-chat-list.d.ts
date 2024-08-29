@@ -10,7 +10,7 @@ export declare const useChatList: () => {
     isLoading: boolean;
     archivedChatsListData: TChatItem[];
     fetchDialogs: (isInit: boolean) => () => void;
-    activeTabTitleRef: import("react").RefObject<HTMLDivElement>;
+    tabsWrapperRef: import("react").RefObject<HTMLDivElement>;
     popoverLayoutOpen: boolean;
     dismissHandler: () => void;
     searchChangeHandler: (value: string) => Promise<void>;

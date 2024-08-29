@@ -5,5 +5,6 @@ export declare const selectPotentialOwners: (state: RootState) => import("../../
 export declare const selectIsSelectChatsMode: (state: RootState) => boolean;
 export declare const selectSelectedChats: (state: RootState) => import("../../../shared/types").TChatSelectionItem[];
 export declare const selectNewFolderName: (state: RootState) => string;
+export declare const selectInteractiveFolderName: (state: RootState) => string;
 export declare const selectWasFolderDeleteProcessed: (state: RootState) => string;
 export declare const selectIsFolderEditMode: (state: RootState) => boolean;

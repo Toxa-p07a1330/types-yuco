@@ -6,8 +6,8 @@ export declare const TAB_ACTIONS: {
     readAll: string;
     remove: string;
 };
-export declare const useFolderActionPopover: ({ activeFolder }: {
-    activeFolder: IActiveFolder | null;
+export declare const useFolderActionPopover: ({ tabsWrapperRef }: {
+    tabsWrapperRef: IActiveFolder | null;
 }) => {
     getActions: () => void;
     actions: IAction[];
