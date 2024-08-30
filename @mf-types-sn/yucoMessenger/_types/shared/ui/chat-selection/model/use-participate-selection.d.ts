@@ -9,7 +9,7 @@ export declare const useParticipateSelection: ({ selectCards, resetChats, setCha
     onTagAction: ActionCreatorWithPayload<TChatSelectionTag, any>;
     onInputAction: ActionCreatorWithoutPayload<any>;
 }) => {
-    searchUserHandler: (event: any) => void;
+    searchUserHandler: (event: any) => Promise<void>;
     tagCallback: (item: TChatSelectionTag) => void;
     cardCallback: (item: TChatSelectionCard) => void;
     onInputFocus: () => {
