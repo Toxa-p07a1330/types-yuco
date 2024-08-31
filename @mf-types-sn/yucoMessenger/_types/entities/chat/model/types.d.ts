@@ -35,6 +35,7 @@ export type TChatItem = {
     folders: TChatFolders[];
 };
 export type TChatFolders = {
+    uuid: string;
     name: string;
     is_pin: boolean;
 };
@@ -350,6 +351,7 @@ export type ChatListType = {
     folderDeleteProcessed: string;
     isEditMode: boolean;
     interactiveFolderName: string;
+    interactiveFolderId: string;
 };
 export declare const CHAT_ACTION_TYPE: {
     SEND_MESSAGE: string;
