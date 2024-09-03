@@ -1,9 +1,9 @@
 /// <reference types="react" />
-import { FriendlyRole } from 'mf-types/yucoShared/_types/generated-api/messenger/model';
+import { TMemberRole } from 'shared/types';
 interface IGroupMembers {
     members: any;
     onRemove: (id: string) => void;
-    onAdjust: (id: string, role: FriendlyRole) => void;
+    onAdjust: (id: string, role: TMemberRole) => void;
     scrollable?: boolean;
     addMembers: () => void;
     membersHeight: number;

@@ -8,7 +8,7 @@ export declare const useChatList: () => {
     height: number;
     currentTabChats: TChatItem[];
     isLoading: boolean;
-    archivedChatsListData: TChatItem[];
+    archivedChatsListData: never[];
     fetchDialogs: (isInit: boolean) => () => void;
     tabsWrapperRef: import("react").RefObject<HTMLDivElement>;
     popoverLayoutOpen: boolean;

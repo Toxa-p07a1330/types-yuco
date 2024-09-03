@@ -1,4 +1,4 @@
-import { SyntheticEvent } from "react";
+import { SyntheticEvent } from 'react';
 export interface UserPhoto {
     filepath: string;
     webviewPath: string;
@@ -26,7 +26,7 @@ interface IPickOptions {
 }
 interface IMultiselectOptions {
     checked: string[];
-    handleCheck: (data: string) => (event: SyntheticEvent) => void;
+    handleCheck: (data: UserMedia) => (event: SyntheticEvent) => void;
 }
 type TConditionalProperties<K, T extends K> = T extends {
     isMultipleChecking: true;
@@ -42,7 +42,7 @@ interface IGridWrapperCommon extends IGridWrapperBase {
 interface IGridWrapperMultiselect extends IGridWrapperBase {
     isMultipleChecking: true;
 }
-export type TGalleryGridItem = (TConditionalProperties<IGridItemBase, IGridItemCommon> | TConditionalProperties<IGridItemBase, IGridItemMultiselect>);
+export type TGalleryGridItem = TConditionalProperties<IGridItemBase, IGridItemCommon> | TConditionalProperties<IGridItemBase, IGridItemMultiselect>;
 export type TGalleryWrapper = TConditionalProperties<IGridWrapperBase, IGridWrapperCommon> | TConditionalProperties<IGridWrapperBase, IGridWrapperMultiselect>;
 export type TMediaPool = {
     media: UserMedia[];
@@ -62,7 +62,7 @@ export type TGalleryGridStateController = {
     topDirectionScrollUpdateHandler: (dataToProcess: UserMedia[]) => void;
     removeNextMediaPoolLastItemsHandler: (dataToProcess: number) => void;
     removePrevMediaPoolFirstItemsHandler: (dataToProcess: number) => void;
-    handleCheck: (data: string) => (event: SyntheticEvent) => void;
+    handleCheck: (data: UserMedia) => (event: SyntheticEvent) => void;
     handlePick: (data: UserMedia) => (event: SyntheticEvent) => void;
     notificationInteract: (text: string) => void;
     checked: string[];

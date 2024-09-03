@@ -171,7 +171,7 @@ export type TStorageMessagesQueue = TMessagesQueue & {
 export interface IChatAttachmentsRes {
     hashname: string;
     thumbnail_hashname?: string;
-    object_type: TFileType;
+    object_type: string;
     thumbnail?: string;
     is_file: boolean;
     file_name: string;
@@ -203,7 +203,7 @@ export interface IChatContentRes {
 }
 export interface IChatAttachments {
     hashname: string;
-    object_type: TFileType;
+    object_type: string;
     thumbnail?: string;
     is_file: boolean;
     file_name: string;

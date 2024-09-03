@@ -1,13 +1,5 @@
-import Dexie, { Table } from 'dexie';
-import { Followers, IPostDraft, LastSyncTimestamp, TMessage, TQueueItem } from './types';
-export declare class YucoDexie extends Dexie {
-    followers: Table<Followers>;
-    messages: Table<TMessage>;
-    queue: Table<TQueueItem>;
-    last_sync_timestamp: Table<LastSyncTimestamp>;
-    post_drafts: Table<IPostDraft>;
-    constructor();
-}
+import { Table } from 'dexie';
+import { IPostDraft, LastSyncTimestamp, TMessage, TQueueItem } from './types';
 export declare const YucoStorage: {
     utils: {
         initStoragePersistence: () => Promise<void>;
@@ -80,6 +72,21 @@ export declare const YucoStorage: {
                 subscribeUpdatingAction: (callback: (modifications: Object, primKey: string | number, obj: LastSyncTimestamp) => any) => () => void;
                 subscribeReadingAction: (callback: (obj: LastSyncTimestamp) => any) => () => void;
                 subscribeCreatingAction: (callback: (primKey: string | number, obj: LastSyncTimestamp) => void | import("dexie").IndexableType | undefined) => () => void;
+            };
+        };
+        postDraftsController: {
+            actions: {
+                addDraft: (draft: IPostDraft) => Promise<any>;
+                deleteDraft: (draftId: number) => Promise<number>;
+                getDraft: (id: number) => Promise<IPostDraft | undefined>;
+                getSortedDrafts: (created_at: string, limit: number) => Promise<IPostDraft[]>;
+                updateDraft: (draft: IPostDraft) => Promise<any>;
+            };
+            hookManager: {
+                subscribeDeletingAction: (callback: (primKey: string | number, obj: IPostDraft) => any) => () => void;
+                subscribeUpdatingAction: (callback: (modifications: Object, primKey: string | number, obj: IPostDraft) => any) => () => void;
+                subscribeReadingAction: (callback: (obj: IPostDraft) => any) => () => void;
+                subscribeCreatingAction: (callback: (primKey: string | number, obj: IPostDraft) => void | import("dexie").IndexableType | undefined) => () => void;
             };
         };
     };

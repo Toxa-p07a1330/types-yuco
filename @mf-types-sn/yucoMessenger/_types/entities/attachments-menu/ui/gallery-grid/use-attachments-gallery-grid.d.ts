@@ -13,7 +13,7 @@ export declare const useAttachmentsGalleryGrid: () => {
     topDirectionScrollUpdateHandler: (dataToProcess: UserMedia[]) => void;
     removeNextMediaPoolLastItemsHandler: (dataToProcess: number) => void;
     removePrevMediaPoolFirstItemsHandler: (dataToProcess: number) => void;
-    handleCheck: (data: string) => (event: SyntheticEvent) => void;
+    handleCheck: (media: UserMedia) => (event: SyntheticEvent) => void;
     checked: string[];
     picked: UserMedia | null;
     handlePick: (media: UserMedia) => (event: SyntheticEvent) => void;

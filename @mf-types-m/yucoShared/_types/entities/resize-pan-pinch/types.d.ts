@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 export interface IResizePanPinchArgs {
     children: ReactNode;
     containerHeight: string;
-    pinchMode?: PinchMode;
+    pinchMode?: TPinchMode;
     withSelectionIndicator?: boolean;
     panPinchSize?: IPanPinchSize;
     disable?: boolean;
@@ -10,7 +10,7 @@ export interface IResizePanPinchArgs {
     filter?: TFilterName;
     childrenInitDim: ISize;
     resetTrigger?: any;
-    objectFit?: ObjectFitOptions;
+    objectFit?: TObjectFitOptions;
     hideOverflow?: boolean;
     isSingleTouchDragAvailable?: boolean;
 }
@@ -25,14 +25,16 @@ export declare enum Orientation {
     LANDSCAPE = "landscape",
     PORTRAIT = "portrait"
 }
-export declare enum PinchMode {
-    COMMON = "common",
-    BORDERS_ALLOWED = "bordersAllowed"
-}
-export declare enum ObjectFitOptions {
-    contain = "contain",
-    cover = "cover"
-}
+export declare const PinchMode: {
+    readonly COMMON: "common";
+    readonly BORDERS_ALLOWED: "bordersAllowed";
+};
+export type TPinchMode = (typeof PinchMode)[keyof typeof PinchMode];
+export declare const ObjectFitOptions: {
+    readonly contain: "contain";
+    readonly cover: "cover";
+};
+export type TObjectFitOptions = (typeof ObjectFitOptions)[keyof typeof ObjectFitOptions];
 export interface ISize {
     height: number;
     width: number;

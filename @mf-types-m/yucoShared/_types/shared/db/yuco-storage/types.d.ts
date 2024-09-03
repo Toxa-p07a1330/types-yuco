@@ -6,12 +6,6 @@ export declare const MessageStatus: {
     readonly CANCELED: "canceled";
 };
 export type TMessageStatus = (typeof MessageStatus)[keyof typeof MessageStatus];
-export declare const FileTypes: {
-    readonly File: "file";
-    readonly Photo: "photo";
-    readonly Video: "video";
-};
-export type TFileType = (typeof FileTypes)[keyof typeof FileTypes];
 export type TSourceMessage = {
     uuid: string;
     message?: string;
@@ -32,7 +26,7 @@ export type TSourceMessage = {
 export interface IChatAttachmentsRes {
     hashname: string;
     thumbnail_hashname?: string;
-    object_type: TFileType;
+    object_type: string;
     thumbnail?: string;
     is_file: boolean;
     file_name: string;
@@ -74,7 +68,7 @@ export type TYucoMessage = (TReplyMessage | TForwardMessage) & {
 export type TMessage = TYucoMessage & TReplyMessage & TForwardMessage;
 export interface IChatAttachments {
     hashname: string;
-    object_type: TFileType;
+    object_type: string;
     thumbnail?: string;
     is_file: boolean;
     file_name: string;
@@ -92,9 +86,6 @@ export type TChatsItemMessage = {
     reactions?: TReactions[];
     object_uuid?: number;
     object_type?: string;
-    sender?: TMessageSender;
-    chat_uuid?: string | number;
-    status?: TMessageStatus;
 };
 export type TUserAccount = {
     avatar?: string | null;
@@ -139,20 +130,25 @@ export interface LastSyncTimestamp {
     timestamp: string;
 }
 export interface IPostDraft {
-    share_to_vk: boolean;
-    likes_visible: boolean;
-    share_enable: boolean;
-    comments_enable: boolean;
-    title: string;
+    description: string;
+    options: TPostCreationOptions;
     tag_color: string;
-    content: IPickedMedia[];
-    location: ILocation;
+    content: IDraftMedia[];
+    location: ILocation | number;
     tag_people: IUserTag[];
     aspect_ratio: number;
     height: number;
     is_reel?: boolean;
     created_at: string;
+    id?: number;
+    preview: string;
 }
+export type TPostCreationOptions = {
+    settingsVk: boolean;
+    settingsLikes: boolean;
+    settingsShare: boolean;
+    settingsComments: boolean;
+};
 interface IUserTag {
     id: string;
     username: string;
@@ -173,23 +169,17 @@ interface ILocation {
     score: number;
     id: number;
 }
-declare const PostMediaType: {
+export declare const FileTypes: {
+    readonly File: "file";
     readonly Image: "image";
     readonly Video: "video";
 };
-type TPostMediaType = (typeof PostMediaType)[keyof typeof PostMediaType];
-interface IPickedMedia {
-    path: string;
-    mediaType: TPostMediaType;
-    isFullScreen: boolean;
-    isMuted?: boolean;
-    filter?: string;
-    transformPosition?: ITransformPosition;
-}
-interface ITransformPosition {
-    x: number;
-    y: number;
-    scale: number;
+export type TFileType = (typeof FileTypes)[keyof typeof FileTypes];
+export type TMediaType = Exclude<TFileType, 'file'>;
+interface IDraftMedia {
+    name: string;
+    mediaType: TMediaType;
+    preview?: string;
 }
 export interface TTableHookMap<T> {
     deleting: (primKey: number | string, obj: T) => any;
@@ -198,4 +188,5 @@ export interface TTableHookMap<T> {
     reading: (obj: T) => T | any;
 }
 export type TTableHookEvent = keyof TTableHookMap<any>;
+export type RequiredFields<T, K extends keyof T> = T & Required<Pick<T, K>>;
 export {};

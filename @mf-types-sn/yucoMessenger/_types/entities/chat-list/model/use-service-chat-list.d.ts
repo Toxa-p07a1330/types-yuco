@@ -1,17 +1,17 @@
-import { Chat } from 'mf-types/yucoShared/_types/generated-api/messenger/model';
+import { TChatTypes } from 'shared/types';
 export declare const useServiceChatList: () => {
     createDialogAction: ({ members, type, title, icon_hashname }: {
         members: Array<any>;
-        type: Chat;
+        type: TChatTypes;
         title?: string | undefined;
         icon_hashname?: string | undefined;
-    }) => Promise<import("mf-types/yucoShared/_types/generated-api/messenger/model").MSChatBase>;
+    }) => Promise<import("../../../../@mf-types/yucoShared/_types/generated-api/messenger").MSChatBase>;
     fetchDialogAction: <IParam, Error_1>(params: {
         offset?: string;
         limit?: number;
         init_cache_messages?: boolean;
-    }) => Promise<import("mf-types/yucoShared/_types/generated-api/messenger/model").MSChatList>;
-    getDialogAction: (account_id: string) => Promise<import("mf-types/yucoShared/_types/generated-api/messenger/model").MSFullChat>;
+    }) => Promise<import("../../../../@mf-types/yucoShared/_types/generated-api/messenger").MSChatList>;
+    getDialogAction: (account_id: string) => Promise<import("../../../../@mf-types/yucoShared/_types/generated-api/messenger").MSFullChat>;
     fetchInitDialogs: import("@reduxjs/toolkit").AsyncThunk<void | null, {
         offset?: string | undefined;
         limit?: number | undefined;

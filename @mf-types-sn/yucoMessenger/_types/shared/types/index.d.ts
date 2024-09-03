@@ -109,7 +109,7 @@ export interface IAvatarReadUrls {
 export declare const ChatTypes: {
     readonly GROUP_OPEN: "group_open";
     readonly PRIVATE: "private";
-    readonly ARCHIVED: "archived";
+    readonly GROUP_PRIVATE: "group_private";
 };
 export type TChatTypes = (typeof ChatTypes)[keyof typeof ChatTypes];
 export declare const MemberRole: {
