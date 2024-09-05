@@ -33,6 +33,7 @@ export type TChatItem = {
     uuid: string;
     updated_at: string;
     folders: TChatFolders[];
+    icon_url?: string;
 };
 export type TChatFolders = {
     uuid: string;
