@@ -348,6 +348,7 @@ export type ChatListType = {
     potentialOwners: TUserSelectionCard[];
     isSelectChatsMode: boolean;
     selectedChats: TChatSelectionItem[];
+    isChatListLoading: boolean;
     newFolderName: string;
     folderDeleteProcessed: string;
     isEditMode: boolean;
