@@ -10,7 +10,7 @@ export declare const setCurrentFrame: import("@reduxjs/toolkit").ActionCreatorWi
     message: TMessage;
     limit: number;
 }, "messagesFrames/insertInInitialFrame">, updateFrames: import("@reduxjs/toolkit").ActionCreatorWithPayload<{
-    modify: TMessage;
+    modify: Object;
     cache_id: string;
 }, "messagesFrames/updateFrames">, insertInCurrentFrame: import("@reduxjs/toolkit").ActionCreatorWithPayload<{
     message: TMessage;
